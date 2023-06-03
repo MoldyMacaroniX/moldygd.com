@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --thumbnail: url(https://i.ytimg.com/vi/mjlj4CqHpZA/maxresdefault.jpg);
+    --verified: none;
+    --truncate: 2;
+    --premiere: none;
+    --live: none;
+    --live-time: unset;
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #F9F9F9;
+}
+
+.content {
+    width: 331px;
+    height: 282px;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.thumbnail {
+    background: rgba(255, 255, 255, 0);
+    width: 331px;
+    height: 186px;
+    position: relative;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.thumbnail span {
+    position: absolute;
+    color: white;
+    right: 0;
+    bottom: 0;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 2px;
+    padding: 2px 4px;
+    margin: 4px;
+    display: var(--live-time);
+}
+
+.live-remover {
+    display: var(--live-time);
+}
+
+.thumbnail-img {
+    width: 100%;
+    height: 100%;
+    background: var(--thumbnail);
+    background-size: cover;
+}
+
+.info {
+    width: 331px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-right: 12px;
+    object-fit: cover;
+}
+
+.text {
+    padding-right: 24px;
+}
+
+.text h3 {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    font-size: 1.1em;
+    font-weight: 500;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: var(--truncate);
+    -webkit-box-orient: vertical;
+}
+
+.text p {
+    font-size: 15px;
+    color: #606060;
+    line-height: 20px;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.premiere-mark {
+    font-size: 15px;
+    color: #606060;
+    background: #E0E0E0;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 4px 10px;
+    display: var(--premiere);
+}
+
+.live-mark {
+    font-size: 15px;
+    color: #CC0000;
+    font-weight: 500;
+    border-radius: 2px;
+    border: 1px solid #CC0000;
+    padding: 3px 7px;
+    display: var(--live);
+}
+
+.verified {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+    margin-bottom: 6px;
+}
+
+.verified svg {
+    height: 100%;
+    width: 100%;
+    fill: #606060;
+    display: var(--verified);
+}
+
+.text .extra {
+    display: block !important;
+    margin-top: -14px;
+    flex: none;
+}
+
+.verified {
+    position: relative;
+    display: inline-block;
+}
+  
+.verified .verified-text {
+    visibility: hidden;
+    width: auto;
+    background-color: rgba(90, 90, 90, 0.9);
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px 10px;
+    font-size: 15px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -40px;
+    margin-bottom: 20px;
+
+    display: var(--verified);
+}
+
+.verified:hover .verified-text {
+    visibility: visible;
+}
+
+.name {
+    position: relative;
+    display: inline-block;
+}
+  
+.name .name-text {
+    visibility: hidden;
+    width: auto;
+    background-color: rgba(90, 90, 90, 0.9);
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px 10px;
+    font-size: 15px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    margin-bottom: 20px;
+}
+
+.name:hover .name-text {
+    visibility: visible;
+}
+
+.inputs {
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-top: 10vh;
+    padding: 10px;
+    text-align: left;
+}
+
+.inputs input {
+    margin: 5px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.inputs a {
+    border: 1px solid black;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.summary {
+    margin-top: 10vh;
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+
+.summary p {
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media only screen and (max-width: 870px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .inputs {
+        width: 95%;
+    }
+    
+    .summary {
+        margin-top: 15vh;
+        width: 95%;
+    }
+
+}

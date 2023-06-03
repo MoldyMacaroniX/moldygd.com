@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.container {
+    max-width: 2000px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: auto;
+}
+
+.overflow {
+    visibility: hidden;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-2000px), translateX(-5000px);
+    overflow: hidden;
+    width: 10px;
+    height: 10px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+img.canvas {
+    border: 5px dashed rgb(168, 168, 168);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+    margin: 25px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.divider {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(196, 196, 196);
+}
+
+.para {
+    padding: 25px 0;
+}
+
+.para p {
+    font-size: 1.2rem;
+}
+
+.rad {
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+@media only screen and (max-width: 1050px) {
+    .b1 {
+        grid-template-columns: 1fr !important;
+    }
+    h1.logo {
+        font-size: 1.75rem !important;
+        margin: 25px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    h1.logo {
+        font-size: 1.25rem !important;
+        margin: 25px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .b2 {
+        grid-template-columns: 1fr !important;
+    }
+    .r {
+        display: none;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h1.logo {
+        margin: 15px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .b3 {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    h1.logo {
+        font-size: 0.9rem !important;
+    }
+}

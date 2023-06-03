@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber Progress Bar Generator</title>
+    <meta name="description" content="This is a tool designed to make simple subscriber progress bars for YouTube banners. It is designed to fit any art style and does all the calculations for you.">
+    <link rel="stylesheet" href="index.css">
+    <meta name="theme-color" content="#0284c7">
+    <link rel="icon" href="/assets/images/icon.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.73/dist/shoelace.js"></script>
+
+    <!-- Opengraph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Subscriber Progress Bar Generator">
+    <meta property="og:description" content="This is a tool designed to make simple subscriber progress bars for YouTube banners. It is designed to fit any art style and does all the calculations for you.">
+
+</head>
+<body>
+    
+    <div class="overflow" style="border:1px solid #d3d3d3;">
+        <canvas id="banner" width="2560" height="1440">Your browser does not support the HTML canvas tag. Uh that's a problem considering that is literally what this whole web app is based on.</canvas>
+    </div>
+
+    <div class="container">
+        <div class="grid b2" style="grid-template-columns: 1fr 3fr 1fr; margin: 0;">
+            <div class="r">
+                <sl-button size="large" href="https://moldymacaronix.netlify.app/tools/">
+                    <sl-icon slot="prefix" name="arrow-left"></sl-icon>
+                    More Tools
+                </sl-button>
+            </div>
+            <div style="text-align: center;">
+                <h1 style="margin: 15px 0; display: flex; align-items: center; justify-content: center; gap: 10px;" class="logo">Subscriber Bar Generator <sl-badge>v1.0</sl-badge></h1>
+            </div>
+            <div style="text-align: right;" class="r">
+                <sl-button size="large" href="https://www.youtube.com/moldymacaronix?sub_confirmation=1">
+                    <sl-icon slot="prefix" name="youtube"></sl-icon>
+                    Subscribe
+                </sl-button>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="container">
+        <sl-alert open closable style="margin-top: 25px; margin-bottom: -15px;">
+            <sl-icon slot="icon" name="info-circle"></sl-icon>
+            While this web app does work on mobile devices such as phones and tablets, it works best on computers. It is also best to use this web app on the same device every time so your settings are saved. Everything you input except your banner image will be saved in your browser. Go to the bottom of the page for further questions and answers.
+        </sl-alert>
+
+        <div class="grid b1">
+            <div class="grid b2" style="align-items: unset; margin-top: -15px;">
+                <div>
+                    <h1>Subscribers</h1>
+
+                    <sl-input value="0" clearable type="number" label="Subscriber Start" help-text="Where do you want to start the progress bar?" placeholder="0" id="subscriberStart"></sl-input>
+                    <br>
+                    <sl-input value="250" clearable type="number" label="Subscribers" help-text="How many subscribers do you have?" placeholder="250" id="subscribers"></sl-input>
+                    <br>
+                    <sl-input value="1000" clearable type="number" label="Subscriber Goal" help-text="What is your subscriber goal?" placeholder="1000" id="subscriberGoal"></sl-input>
+                </div>
+
+                <div>
+                    <h1>Progress Bar Colors</h1>
+
+                    <p>Progress Bar Uncompleted Color</p>
+                    <sl-color-picker value="#3e3e3e" opacity label="Select a color" id="colorFull"></sl-color-picker>
+                    <br>
+                    <p>Progress Bar Completed Color</p>
+                    <sl-color-picker value="#00ff03" opacity label="Select a color" id="colorComp"></sl-color-picker>
+                    <br>
+                    <p>Progress Bar Border Color</p>
+                    <sl-color-picker value="#000000" opacity label="Select a color" id="colorBorder"></sl-color-picker>
+                </div>
+
+                <div>
+                    <h1>Progress Bar Size</h1>
+                    <sl-input value="1000" clearable type="number" label="Progress Bar Length" help-text="Total length of the progress bar (width)." placeholder="1000" id="lineWidth"></sl-input>
+                    <br>
+                    <sl-input value="10" clearable type="number" label="Progress Bar Thickness" help-text="Thickness of the progress bar (height)." placeholder="10" id="lineThickness"></sl-input>
+                    <br>
+                    <sl-input value="875" clearable type="number" label="Progress Bar Vertical Position" help-text="Where the progress bar will be placed vertically." placeholder="875" id="lineY"></sl-input>
+                    <br>
+                    <sl-input value="25" clearable type="number" label="Progress Bar Border Thickness" help-text="Thickness of the progress bar border. Set to 0 for no border." placeholder="25" id="lineBorder"></sl-input>
+                </div>
+
+                <div>
+                    <h1>Banner Image</h1>
+                    <sl-alert open>
+                        <sl-icon slot="icon" name="info-circle"></sl-icon>
+                        Make sure your YouTube banner has a size of 2560 by 1440. Other dimensions will not work.
+                    </sl-alert>
+                    <p>Upload your YouTube banner without the subscriber progress bar.</p>
+                    <input type="file" accept="image/*" id="fileBanner" onchange="setImage();" hidden>
+                    <sl-button><label for="fileBanner" style="cursor: pointer; padding: 10px 0px;">Upload Image</label></sl-button>
+                    <br>
+                    <br>
+                    <sl-button size="large" style="width: 100%;" onclick="setVars();">Generate Subscriber Bar</sl-button>
+                    <br>
+                    <sl-button size="large" style="width: 100%;" variant="text" href="#what-even-is-this-exactly">What even is this exactly?</sl-button>
+                    <br>
+                    <sl-button size="large" style="width: 100%;" variant="text" href="#how-do-i-add-text-and-other-details">How do I add text and other details?</sl-button>
+                </div>
+            </div>
+            <div>
+                <img src="moldy.png" class="canvas" id="image">
+                <sl-button size="large" style="width: 100%;" variant="text" onclick="downloadCanvas();">Download Banner</sl-button>
+                <sl-button size="large" style="width: 100%;" variant="text" onclick="downloadTransparentCanvas()">Download Transparent Progress Bar</sl-button>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="container">
+        <div class="grid para b3" style="align-items: unset;">
+            <div>
+
+                <img src="examples/example1.png" class="rad">
+
+                <h1 id="what-even-is-this-exactly">What even is this exactly?</h1>
+
+                <p>
+                    This is a tool designed to make simple subscriber progress bars for YouTube banners. It is designed to fit any art style and does all the calculations for you.
+                </p>
+
+                <p>
+                    A subscriber progress bar is a new trend that's been popping up where YouTubers display a visual progress bar on their banner that displays how many subscribers they have relative to their goal. The problem is, however, that they usually have to manually update it.
+                </p>
+
+                <p>
+                    This tool was designed to make that easier.
+                </p>
+
+                <p>
+                    All you have to do is input your current subscriber count and your subscriber goal and a simple subscriber progress bar will be calculated and drawn on your banner for you.
+                </p>
+
+                <p>
+                    This progress bar defaults to a rather small size, so it doesn't take up much space. This means it fits with any design you have.
+                </p>
+
+                <p>
+                    If you don't like the default look, you can adjust its color, position, thickness, and more properties!
+                </p>
+            </div>
+            <div>
+
+                <img src="examples/example2.png" class="rad">
+
+                <h1 id="how-do-i-add-text-and-other-details">How do I add text and other details?</h1>
+
+                <p>
+                    As of right now, there is no text feature available, but it is a planned feature that is on the horizon!
+                </p>
+
+                <p>
+                    For now, if you want to add any features like text or other details, you will have to do it manually before adding the progress bar.
+                </p>
+
+                <p>
+                    Fortunately, you can download a transparent image with just the progress bar to get an idea of where it will lie. Then you can add your own text, such as the starting count on the left of the bar and the actual subscriber goal on the right of the bar.
+                </p>
+
+                <p>
+                    You can also include other details such as a shadow behind the progress bar, markers above or below it, and more.
+                </p>
+
+                <p>
+                    Note that adding details overtop the bar is currently not possible with this app, but you can always download your banner with the bar and add details on top of it yourself. However, that is not recommended because the goal for this tool is to make subscriber progress bars easy to maintain, so having to do that kind of defeats the point.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="container">
+        <div class="para" style="text-align: center;">
+            <p>Made with ❤️ by MoldyMacaroniX</p>
+            <p><a href="https://www.youtube.com/moldymacaronix">My YouTube</a> · <a href="https://twitter.com/moldymacaronix">My Twitter</a> · <a href="https://discord.gg/PqTUgx6">My Discord Server</a></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

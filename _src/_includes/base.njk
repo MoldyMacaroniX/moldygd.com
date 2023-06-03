@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta stuff -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Display stuff (Title, desc, color, icon) -->
+    <title>{{ title or metadata.title }} | Moldy</title>
+    <meta name="title" content="{{ title or metadata.title }} | Moldy">
+    <meta name="description" content="{{ desc or metadata.desc }}">
+    <meta name="theme-color" content="#ff00ff">
+    <link rel="icon" href="/assets/icon.png">
+
+    <!-- Opengraph -->
+    <meta property="og:type" content="website">
+    {# <meta property="og:url" content="..."> #}
+    <meta property="og:title" content="{{ title or metadata.title }} | Moldy">
+    <meta property="og:description" content="{{ desc or metadata.desc }}">
+    <meta property="og:image" content="/assets/banner.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    {# <meta property="twitter:url" content="..."> #}
+    <meta property="twitter:title" content="{{ title or metadata.title }} | Moldy">
+    <meta property="twitter:description" content="{{ desc or metadata.desc }}">
+    <meta property="twitter:image" content="/assets/banner.png">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/index.css">
+</head>
+<body class="preload">
+
+    <!-- Mobile Menu -->
+    <div class="menu" id="menu" tabindex="-1">
+        <div class="menu-close" id="close" tabindex="0" onclick="closeMobile();" onkeydown="if (event.keyCode === 13) {closeMobile()}"><i class="ri-close-line"></i></div>
+        <a href="/" class="menu-link" onclick="closeMobile();" onkeydown="if (event.keyCode === 13) {closeMobile()}">Home</a>
+        <a href="/#audience" class="menu-link" onclick="closeMobile();" onkeydown="if (event.keyCode === 13) {closeMobile()}">My Audience</a>
+        <a href="/#videos" class="menu-link" onclick="closeMobile();" onkeydown="if (event.keyCode === 13) {closeMobile()}">My Videos</a>
+        <a href="/#contact" class="menu-link" onclick="closeMobile();" onkeydown="if (event.keyCode === 13) {closeMobile()}">Get In Touch</a>
+    </div>
+    <div class="menu-bg" id="menu-bg" onclick="closeMobile();"></div>
+
+    <!-- Background image -->
+    <img src="/assets/bg.png" alt="" class="bg">
+
+    <!-- General content -->
+    <div class="container layout">
+
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="left">
+                <div class="menu-btn" id="open" tabindex="0" onclick="openMobile();" onkeydown="if (event.keyCode === 13) {openMobile()}">
+                    <i class="ri-menu-line"></i>
+                </div>
+                <a href="/" class="logo">
+                    <img src="/assets/icon.png" alt="">
+                    <span>Moldy</span>
+                </a>
+                <div class="items">
+                    <a href="/" class="item">Home</a>
+                    <a href="/#audience" class="item">My Audience</a>
+                    <a href="/#videos" class="item">My Videos</a>
+                    <a href="/#contact" class="item">Get In Touch</a>
+                </div>
+            </div>
+            <div class="right">
+                <a href="https://youtube.com/@MoldyGD" class="btn"><i class="ri-youtube-fill"></i> YouTube</a>
+            </div>
+        </div>
+
+        {{ content | safe }}
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="cols">
+                <div class="col">
+                    <h1>Moldy</h1>
+                    <p>
+                        This is the official website of Moldy.
+                    </p>
+                    {# <a href="/privacy-policy/" class="footer-link">Privacy Policy</a> #}
+                    <a href="/video-usage/" class="footer-link">Video Usage Policy</a>
+                </div>
+                <div class="col">
+                    <h1>Quick Links</h1>
+                    <a href="/" class="footer-link">Home</a>
+                    <a href="/#audience" class="footer-link">My Audience</a>
+                    <a href="/#videos" class="footer-link">My Videos</a>
+                    <a href="/#contact" class="footer-link">Get In Touch</a>
+                </div>
+                <div class="col">
+                    <h1>Social Media</h1>
+                    <a href="https://youtube.com/@MoldyGD" class="footer-link">YouTube</a>
+                    <a href="https://discord.gg/PqTUgx6" class="footer-link">Discord</a>
+                    <a href="https://twitter.com/MoldyMacaroniX" class="footer-link">Twitter</a>
+                    <a href="/social-media/" class="footer-link">View All</a>
+                </div>
+            </div>
+            <div class="note">
+                <div>Copyright © <span id="year"></span><script>document.getElementById("year").innerHTML = new Date().getFullYear();</script> Moldy</div>
+                <div>Moldy is not associated with RobTopGames AB</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Preload animation stop -->
+    <script>
+        window.onload = (event) => {
+            document.body.classList.remove('preload');
+        };
+    </script>
+
+    <!-- Mobile Navigation -->
+    <script>
+        var menu = document.getElementById("menu");
+        var menuBg = document.getElementById("menu-bg");
+
+        function openMobile() {
+            document.body.style.overflow = "hidden";
+            menu.style.display = "flex";
+            menuBg.style.display = "block";
+            setTimeout(function(){
+                menu.style.transform = "translateX(0%)";
+                menuBg.style.opacity = "1";
+                document.getElementById("menu").focus();
+            }, 10);
+        }
+
+        function closeMobile() {
+            document.body.style.overflow = "unset";
+            menu.style.transform = "translateX(-110%)";
+            menuBg.style.opacity = "0";
+            setTimeout(function(){
+                menu.style.display = "none";
+                menuBg.style.display = "none";
+                //document.getElementById("open").focus();
+            }, 250);
+        }
+    </script>
+
+</body>
+</html>

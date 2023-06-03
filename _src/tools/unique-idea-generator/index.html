@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Dash Level Ideas</title>
+    <meta name="description" content="A tool that generates unique Geometry Dash level ideas. Great for build challenges!">
+
+    <!-- Materialize Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body class="grey lighten-4">
+
+    <style>
+    @media only screen and (max-height: 600px) {
+        .watermark {
+            display: none;
+        }
+    }
+
+    .switch label input[type=checkbox]:checked+.lever {
+        background-color: rgb(104, 207, 255);
+    }
+
+    .switch label input[type=checkbox]:checked+.lever:after {
+        background-color: rgb(41,182,246);
+    }
+
+    span.infor {
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: underline;
+        font-size: 0.75em;
+        cursor: pointer;
+    }
+    </style>
+
+    <p class="flow-text watermark" style="
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        padding: 10px 50px;
+        text-align: center;
+        background-color: rgb(245,245,245);
+        z-index: 100;
+    "><a href="https://www.youtube.com/channel/UCseHDTIJ6ecGo2WcNAFLFCg" target="_blank" style="
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+    ">Tool by MoldyMacaroniX</a><br>
+    <span class="infor" tabindex="0" onclick="infor()">So, what is this tool anyway?</span></p>
+
+    <div class="container center">
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h1 id="name">Loading</h1>
+
+        <br>
+
+        <h5 id="desc">Just wait a moment...</h5>
+
+        <br>
+        <br>
+
+        <a class="btn-large light-blue lighten-1" onclick="checkSettings()" tabindex="0">Generate New Idea</a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+        
+        <div class="switch">
+            <label>
+            THEMES OFF
+            <input type="checkbox" checked id="themes" tabindex="0">
+            <span class="lever"></span>
+            THEMES ON
+            </label>
+        </div>
+
+        <br>
+
+        <div class="switch">
+            <label>
+            GIMMICKS OFF
+            <input type="checkbox" checked id="gimmicks" tabindex="0">
+            <span class="lever"></span>
+            GIMMICKS ON
+            </label>
+        </div>
+
+
+
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+    <script src="index.js"></script>
+            
+</body>
+</html>

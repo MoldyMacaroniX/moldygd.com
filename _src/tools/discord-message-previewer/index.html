@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Message Previewer</title>
+    <meta name="description" content="Discord message generator, made so you can preview role icons and see how they look!">
+</head>
+<body>
+
+    <style>
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+            background-color: #36393F;
+            color: #D7D6DE;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 100px auto;
+            padding: 0 25px;
+        }
+
+        .message {
+            display: flex;
+            margin-bottom: 25px;
+        }
+        .message .avatar {
+            margin-right: 15px;
+        }
+
+        .message .avatar img {
+            width: 45px;
+            height: 45px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .message .content .name {
+            font-weight: 400;
+            color: #FFFFFF;
+            display: block;
+            margin-bottom: 5px;
+            margin-top: -5px;
+        }
+
+        .message .content .name .badge img {
+            width: 20px;
+            height: 20px;
+            margin-bottom: -4px;
+            margin-right: -2px;
+        }
+        .message .content .name .badge {
+            display: var(--icon);
+        }
+
+        .message .content .name2:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .message .content .name .time {
+            font-size: 0.75rem;
+            color: #70767D;
+            padding-left: 5px;
+        }
+
+        .message .content .name.main {
+            color: var(--col1);
+        }
+
+        .message .content .name.secondary {
+            color: var(--col2);
+        }
+
+        .settings {
+            margin-bottom: 100px;
+        }
+
+        label {
+            color: #FFFFFF;
+        }
+
+        .explanation {
+            margin-top: 100px;
+            font-size: 1.2rem;
+        }
+
+        .settings input, .settings textarea {
+            box-sizing: border-box;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.11);
+            outline: none;
+            border: 0px;
+            padding: 10px;
+            color: #D7D6DE;
+            font-size: 1.1rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+            margin-top: 5px;
+        }
+
+        .settings input[type="checkbox"] {
+            width: auto !important;
+        }
+
+        :root {
+            --col1: #FC0AC9;
+            --col2: #a7a6ff;
+            --icon: unset;
+        }
+
+        .button {
+            display: inline-block;
+            color: #FFFFFF;
+            font-weight: bold;
+            background-color: #5865F2;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.25s ease;
+        }
+
+        .button:hover {
+            background-color: #4752C4;
+        }
+
+    </style>
+
+    <div class="container">
+
+        <div class="settings">
+
+            <label>Name</label><br>
+            <input placeholder="MoldyMacaroniX" id="new-name"><br>
+            <br>
+            <label>Message</label><br>
+            <textarea placeholder="Hello! Welcome to the server." id="new-msg"></textarea><br>
+            <br>
+            <label>Avatar (URL)</label><br>
+            <input placeholder="mol.dy/file.png" id="new-avatar"><br>
+            <br>
+            <label>Role Icon (URL)</label><br>
+            <input placeholder="mol.dy/file.png" id="new-icon"><br>
+            <br>
+            <label>Color (HEX VALUE)</label><br>
+            <input placeholder="FC0AC9" id="new-col1"><br>
+            <br>
+            <label>Color 2 (HEX VALUE)</label><br>
+            <input placeholder="a7a6ff" id="new-col2"><br>
+            <br>
+            <input type="checkbox" id="icon-bool"> <label>Disable Role Icon</label><br>
+            <br>
+            <span onclick="generateMsg()" class="button">Generate</span>
+
+        </div>
+
+        <div class="message">
+
+            <div class="avatar">
+                <img src="https://images.unsplash.com/photo-1439405326854-014607f694d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80">
+            </div>
+
+            <div class="content">
+                <span class="secondary name"><span class="name2">Brad</span> <span class="time">Today at 5:12 PM</span></span>
+                <span class="text">Hi, I am new here.</span>
+            </div>
+
+        </div>
+        
+        <div class="message">
+
+            <div class="avatar">
+                <img src="https://pbs.twimg.com/profile_images/1283503879435542530/nReWpCGI_400x400.jpg" id="avatar">
+            </div>
+
+            <div class="content">
+                <span class="main name"><span class="name2" id="name" color="">MoldyMacaroniX</span> <span class="badge"><img id="icon" src="https://images-ext-1.discordapp.net/external/t4PkLfhtTwTVZuwr-1gwKTAAahmyLxj0XjT-zD7gr8I/https/cdn.discordapp.com/emojis/896405226289004564.png"></span> <span class="time">Today at 5:12 PM</span></span>
+                <span class="text" id="msg">Hello! Welcome to the server.</span>
+            </div>
+
+        </div>
+
+        <div class="message">
+
+            <div class="avatar">
+                <img src="https://images.unsplash.com/photo-1439405326854-014607f694d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80">
+            </div>
+
+            <div class="content">
+                <span class="secondary name"><span class="name2">Brad</span> <span class="time">Today at 5:12 PM</span></span>
+                <span class="text">Yooo thanks!</span>
+            </div>
+
+        </div>
+
+        <div class="explanation">
+            <p>Discord message generator, made so you can preview role icons and see how they look!</p>
+            <p><b>Pro Tips:</b></p>
+            <ul>
+                <li>Do not include a "#" when entering a HEX color code.</li>
+                <li>If the name or timestamp line wraps, view this page in landscape mode.</li>
+                <li>To get an image link, just send it somewhere on Discord, right click, and click "Copy Link."</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script>
+
+        function generateMsg() {
+
+            if (document.getElementById("new-name").value !== '') {
+                document.getElementById("name").innerText = document.getElementById("new-name").value;
+            }
+
+            if (document.getElementById("new-msg").value !== '') {
+                document.getElementById("msg").innerText = document.getElementById("new-msg").value;
+            }
+
+            if (document.getElementById("new-avatar").value !== '') {
+                document.getElementById("avatar").src = document.getElementById("new-avatar").value;
+            }
+
+            if (document.getElementById("new-icon").value !== '') {
+                document.getElementById("icon").src = document.getElementById("new-icon").value;
+            }
+
+            if (document.getElementById("new-col1").value !== '') {
+                document.documentElement.style
+                .setProperty('--col1', '#' + document.getElementById("new-col1").value);
+            }
+
+            if (document.getElementById("new-col2").value !== '') {
+                document.documentElement.style
+                .setProperty('--col2', '#' + document.getElementById("new-col2").value);
+            }
+
+            if (document.getElementById("icon-bool").checked == false) {
+                document.documentElement.style
+                .setProperty('--icon', 'unset');
+            } else {
+                document.documentElement.style
+                .setProperty('--icon', 'none');
+            }
+
+        }
+
+    </script>
+    
+</body>
+</html>
