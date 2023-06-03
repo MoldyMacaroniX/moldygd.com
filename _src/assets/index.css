@@ -162,6 +162,14 @@ a {
     border: 2px solid var(--print);
 }
 
+.btn-text {
+    border: 0px;
+    background-color: transparent;
+    color: var(--primary);
+    text-decoration: underline;
+    padding: 5px;
+}
+
 .btns {
     display: flex;
     gap: 15px;
@@ -174,8 +182,9 @@ a {
     opacity: 0.75;
 }
 
-.btn.disabled {
-    opacity: 0.5;
+.disabled {
+    opacity: 0.5 !important;
+    cursor: default !important;
 }
 
 /* Layout */

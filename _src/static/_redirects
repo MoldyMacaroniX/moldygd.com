@@ -1,3 +1,6 @@
+# https://johnkavanagh.co.uk/writing/redirect-a-default-netlify-subdomain-to-your-custom-domain/
+https://moldymacaronix.netlify.com/*   https://www.moldygd.com/:splat   301! 
+
 /unique-idea-generator/ /tools/unique-idea-generator/
 /youtube-video-previewer/home /tools/youtube-video-previewer/
 /youtube-video-previewer/ /tools/youtube-video-previewer/
