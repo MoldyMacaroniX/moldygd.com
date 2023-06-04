@@ -5,6 +5,10 @@ layout: base.njk
 <article>
     <div class="article-details">
         <h1>{{ title }}</h1>
+        {% if isPost %}
+        {# Date format in code is in yyyy-mm-dd #}
+        <div class="date">Published on {{ date | date }}.{% if update %} (Updated on {{ update | date }}.){% endif %}</div>
+        {% endif %}
     </div>
     <div class="article">
         {{ content | safe }}

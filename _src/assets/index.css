@@ -399,9 +399,20 @@ article, .article {
     gap: 15px;
 }
 
+.article-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .article-details h1 {
     font-size: 3.5rem;
     line-height: 1.2;
+}
+
+.article-details .date {
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .article h1 {

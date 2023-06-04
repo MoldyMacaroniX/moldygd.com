@@ -1,9 +1,15 @@
+const { DateTime } = require("luxon");
+
 module.exports = (config) => {
 
     config.addPassthroughCopy('_src/assets');
     config.addPassthroughCopy('_src/tools');
     config.addPassthroughCopy('_src/_data');
     config.addPassthroughCopy({'_src/static':  '.'});
+
+    config.addFilter("date", dateObj => {
+        return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("LLLL d, yyyy");
+    });
 
     return {
         dir: {
