@@ -1,0 +1,40 @@
+---
+layout: base.njk
+title: Archive
+pagination:
+    data: collections.posts
+    size: 5
+    alias: posts
+    generatePageOnEmptyData: true
+permalink: "archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+
+<div class="section">
+
+    <div class="article-details">
+        <h1>Archive</h1>
+    </div>
+
+    <div class="posts">
+    {% for post in posts %}
+        <a href="{{ post.url }}" class="post">
+            <h1 class="title">{{ post.data.title }}</h1>
+            <div class="meta">{% if post.data.date %}Posted on {{ post.data.date | date }}. {% if post.data.update %} (Updated on {{ post.data.update | date }}.){% endif %}{% else %}No date provided.{% endif %}</div>
+        </a>
+    {% else %}
+        <div class="panel">
+            <div class="panel-content">
+                <p>
+                    There is currently nothing in the archive.
+                </p>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+
+    <div class="pagination">
+        <a href="{{ pagination.href.previous }}" class="btn{% if not pagination.href.previous %} disabled{% endif %}"> <i class="ri-arrow-left-line"></i>Previous</a>
+        <a href="{{ pagination.href.next }}" class="btn{% if not pagination.href.next %} disabled{% endif %}">Next <i class="ri-arrow-right-line"></i></a>
+    </div>
+
+</div>

@@ -9,7 +9,8 @@ body {
     --bg: rgb(29, 29, 29);
     --print: rgb(255, 255, 255);
     --print-dim: rgba(255, 255, 255, 0.85);
-    --border-col: rgba(255, 255, 255, 0.25);
+    --border-col: rgba(255, 255, 255, 0.15);
+    --border-col-light: rgba(255, 255, 255, 0.25);
 
     /* Unchanging Colors */
     --primary: rgb(255, 0, 255);
@@ -389,6 +390,54 @@ a {
 
 .card li::marker {
     color: var(--primary)
+}
+
+/* Archive */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--border-col);
+    padding: 25px;
+    border-radius: var(--radius);
+    transition: background-color 0.25s ease;
+}
+
+.post:hover {
+    background-color: var(--border-col-light);
+}
+
+.post a {
+    display: block;
+}
+
+.post .title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.post .meta {
+    color: var(--print-dim);
 }
 
 /* Article */
