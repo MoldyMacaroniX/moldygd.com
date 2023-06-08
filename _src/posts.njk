@@ -20,7 +20,7 @@ permalink: "archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber +
     {% for post in posts %}
         <a href="{{ post.url }}" class="post">
             <h1 class="title">{{ post.data.title }}</h1>
-            <div class="meta">{% if post.data.date %}Posted on {{ post.data.date | date }}. {% if post.data.update %} (Updated on {{ post.data.update | date }}.){% endif %}{% else %}No date provided.{% endif %}</div>
+            <div class="meta">{% if post.data.date %}Published on {{ post.data.date | date }}. {% if post.data.update %} (Updated on {{ post.data.update | date }}.){% endif %}{% else %}No date provided.{% endif %}</div>
         </a>
     {% else %}
         <div class="panel">
