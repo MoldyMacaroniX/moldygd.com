@@ -9,7 +9,7 @@ Since not all of my accounts are recognized with a verified tick, and with a ver
 These are my main platforms.
 
 * **YouTube:** [@MoldyGD](https://youtube.com/@MoldyGD)
-* **Discord Profile:** [MoldyMacaroniX#7000](https://discordapp.com/users/328660527699984394)
+* **Discord Profile:** [moldygd](https://discordapp.com/users/328660527699984394)
 * **Discord Server:** [https://discord.gg/PqTUgx6](https://discord.gg/PqTUgx6)
 * **Twitter:** [@MoldyMacaroniX](https://twitter.com/MoldyMacaroniX)
 * **Geometry Dash Profile:** [CreatorMoldy](https://gdbrowser.com/u/CreatorMoldy)

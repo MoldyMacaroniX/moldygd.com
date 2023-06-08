@@ -12,25 +12,29 @@ I love it when creators use my content to create something of their own! I just 
 - Do not blatantly reupload my content.
 - Do not use any of my content in advertisements or promotional material.
 - You are free to use clips from my content under fair use.
-- Credit is appreciated! Just toss a link to the source in your description.
+- Credit me! Just toss a link to the original source in your description.
+<!-- - Credit is appreciated! Just toss a link to the source in your description. -->
 
 # Videos
 
 - Do not reupload my videos for any reason, even for purposes such as translation or captioning.
 - You are free to use clips from my videos so long as you add proper commentary and your own creative value.
 - I'm fine with you uploading short, unedited clips from my videos, so long as you don't monetize them.
+- I'm fine with you uploading compilations of short, unedited clips from my videos, so long as you don't monetize them.
 
 # Livestreams
 
 - Do not use my livestream footage to upload level replays.
 - You are free to use clips from my livestream footage so long as you add proper commentary and your own creative value.
 - I'm fine with you uploading short, unedited clips from my livestreams, so long as you don't monetize them.
+- I'm fine with you uploading compilations of short, unedited clips from my livestreams, so long as you don't monetize them.
 
 # Shorts
 
 - Feel free to remix my shorts!
 - Do not reupload my shorts.
 - Do not monetize unedited clips from my shorts unless you add your own creative value.
+- I'm fine with you uploading compilations of clips from my shorts, so long as you don't monetizse them and only include clips (not the entirety of my shorts).
 
 ---
 
