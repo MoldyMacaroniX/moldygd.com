@@ -364,6 +364,9 @@ a {
     padding: 25px;
     background-color: var(--primary-dark);
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .card .col {
@@ -438,6 +441,14 @@ a {
 
 .post .meta {
     color: var(--print-dim);
+}
+
+/* Alert */
+
+.alert {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 /* Article */
@@ -588,7 +599,7 @@ article, .article {
     html {
         --font-size: 12px;
     }
-    .footer .cols, .note, .panel, .card.cols, .stats .cols {
+    .footer .cols, .note, .panel, .card .cols, .stats .cols {
         flex-direction: column;
         gap: 25px;
     }
