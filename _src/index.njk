@@ -78,6 +78,76 @@ title: I Am A Geometry Dash YouTuber
     </div>
 </div>
 
+<div class="panel">
+    <div class="col">
+        <h1>Questions And Answers</h1>
+        <p>
+            While this list of frequently asked questions may help you, feel free to ask me anything! I am very variable and happy to give you a personalized experience.
+        </p>
+        <div class="accordion">
+            <button class="accordion-header">I'm a creator and want to get in touch. How can I? <i class="ri-arrow-right-s-line accordion-icon"></i></button>
+            <div class="accordion-body">
+                <p>
+                    Send me a direct message on any of my <a href="/social-media/">social media</a> platforms. Since I typically don't respond to small talk, please tell me your proposition first.
+                </p>
+            </div>
+        </div>
+        <div class="accordion">
+            <button class="accordion-header">We're a brand and want to get in touch. How can we? <i class="ri-arrow-right-s-line accordion-icon"></i></button>
+            <div class="accordion-body">
+                <p>
+                    Feel free to email me at <a href="mailto:contact@moldygd.com">contact@moldygd.com</a> to discuss sponsorship inquiries, press, or other business proposals.
+                </p>
+            </div>
+        </div>
+        <div class="accordion">
+            <button class="accordion-header">What's your rate for sponsorships? <i class="ri-arrow-right-s-line accordion-icon"></i></button>
+            <div class="accordion-body">
+                <p>
+                    <b>Feel free to pitch me anything!</b> My rate is highly negotiable, as I want you to get the best promotion I can possibly give.
+                </p>
+                <p>
+                    That being said, I prefer video integrations for a CPM rate. I generally don't do sponsored live streams or dedicated videos for brands, but feel free to pitch me your idea!
+                </p>
+            </div>
+        </div>
+        {# <div class="accordion">
+            <button class="accordion-header">We're a brand and want to use your content in an ad campaign. Can we? <i class="ri-arrow-right-s-line accordion-icon"></i></button>
+            <div class="accordion-body">
+                <p>
+                    I generally do not allow brands to use my content in advertisements or promotional material for free. But don't worry, I am happy to negotiate! Please email me at <a href="mailto:contact@moldygd.com">contact@moldygd.com</a> if you would like to arrange something. See my <a href="/video-usage/">video usage policy</a> for more information.
+                </p>
+            </div>
+        </div> #}
+        <div class="accordion">
+            <button class="accordion-header">I have a question. How can I contact you? <i class="ri-arrow-right-s-line accordion-icon"></i></button>
+            <div class="accordion-body">
+                <p>
+                    If you're a creator, you can reach me via my <a href="/social-media/">social media</a>. If you're a brand, you can email me at <a href="mailto:contact@moldygd.com">contact@moldygd.com</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // https://www.w3schools.com/howto/howto_js_accordion.asp
+    // https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion_animate
+    var acc = document.getElementsByClassName("accordion-header");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+        } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+    });
+    }
+</script>
+
 <div class="card" id="contact" tabindex="-1">
     <div class="cols">
         <div class="col">

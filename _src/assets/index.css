@@ -330,6 +330,56 @@ a {
     padding: 10px 0;
 }
 
+/* Accordion */
+
+.accordion {
+    border: 4px solid var(--print);
+    border-radius: var(--radius);
+    padding: 15px 15px;
+}
+
+.accordion-header {
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 0px;
+    background-color: transparent;
+    color: var(--print);
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    gap: 15px;
+    line-height: 1.4;
+}
+
+.accordion-header .accordion-icon {
+    margin-left: auto;
+    font-weight: normal;
+    transition: transform 0.25s ease;
+    font-size: 1.7rem;
+}
+
+.active.accordion-header .accordion-icon {
+    transform: rotate(90deg);
+}
+
+.accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease;
+}
+
+.accordion-body p {
+    margin: 15px 0;
+}
+
+b, strong {
+    color: var(--print);
+}
+
 /* Panels */
 
 .panel {
@@ -508,7 +558,7 @@ article, .article {
     color: var(--primary)
 }
 
-.article a {
+.article a, .panel a, .link {
     font-weight: bold;
     color: var(--primary);
     text-decoration: underline;
