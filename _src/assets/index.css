@@ -419,6 +419,11 @@ b, strong {
     gap: 20px;
 }
 
+.card:focus {
+    border-radius: var(--radius);
+    outline-offset: 0px;
+}
+
 .card .col {
     display: flex;
     flex-direction: column;
@@ -554,8 +559,17 @@ article, .article {
     margin-left: 20px;
 }
 
+.article ol {
+    margin-left: 20px;
+}
+
 .article li::marker {
-    color: var(--primary)
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.article ol li {
+    padding-left: 5px;
 }
 
 .article a, .panel a, .link {
@@ -590,6 +604,10 @@ article, .article {
     transform: translateX(-110%);
     transition: transform 0.25s ease;
     display: none;
+}
+
+.menu:focus {
+    outline-offset: 0px;
 }
 
 .menu-bg {
