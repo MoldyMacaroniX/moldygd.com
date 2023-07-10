@@ -20,4 +20,5 @@ These are my main platforms.
 These are less active accounts that I still own.
 
 * **Instagram:** [@moldygmd](https://www.instagram.com/moldygmd/)
+* **Threads:** [@moldygmd](https://www.threads.net/@moldygmd)
 * **Twitch:** [MoldyMacaroniX](https://www.twitch.tv/moldymacaronix)
