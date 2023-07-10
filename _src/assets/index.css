@@ -270,12 +270,54 @@ a {
     text-decoration: underline;
 }
 
+.footer .footer-link.contact {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    text-decoration: none;
+}
+
+.footer .footer-link.contact i {
+    color: var(--primary);
+    font-size: 1.2em;
+}
+
+.footer .footer-link.contact span {
+    text-decoration: underline;
+}
+
 .footer .note {
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: var(--print-dim);
     margin-top: 10px;
+}
+
+.footer .note a {
+    transition: 0.25s color ease;
+}
+
+.footer .note a:hover {
+    color: var(--print);
+}
+
+/* Socials */
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.socials a {
+    font-size: 1.5rem;
+    transition: color 0.25s ease;
+}
+
+.socials a:hover {
+    color: var(--primary);
 }
 
 /* Hero */
@@ -689,7 +731,10 @@ article, .article {
         font-size: 2.25rem;
     }
     .article h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+    }
+    .article h2 {
+        font-size: 1.3rem;
     }
     .logo {
         font-size: 1.8rem;

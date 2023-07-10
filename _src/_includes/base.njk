@@ -28,7 +28,8 @@
     <meta property="twitter:image" content="/assets/banner.png">
 
     <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    {# <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> #}
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/index.css">
 </head>
 <body class="preload">
@@ -77,12 +78,14 @@
         <div class="footer">
             <div class="cols">
                 <div class="col">
-                    <h1>MoldyGD.com</h1>
+                    <a href="/" class="logo" style="margin-bottom: 20px;">
+                        <img src="/assets/icon.png" alt="">
+                        <span>Moldy</span>
+                    </a>
                     <p>
                         MoldyGD.com is the official website of Moldy.
                     </p>
-                    <a href="/privacy-policy/" class="footer-link">Privacy Policy</a>
-                    <a href="/video-usage/" class="footer-link">Video Usage Policy</a>
+                    {# <a href="https://youtube.com/@MoldyGD" class="footer-link">My YouTube</a> #}
                     <a href="/archive/" class="footer-link">Archive</a>
                 </div>
                 <div class="col">
@@ -93,16 +96,21 @@
                     <a href="/#contact" class="footer-link">Get In Touch</a>
                 </div>
                 <div class="col">
-                    <h1>Social Media</h1>
-                    <a href="https://youtube.com/@MoldyGD" class="footer-link">YouTube</a>
-                    <a href="https://discord.gg/PqTUgx6" class="footer-link">Discord</a>
-                    <a href="https://twitter.com/MoldyMacaroniX" class="footer-link">Twitter</a>
-                    <a href="/social-media/" class="footer-link">View All</a>
+                    <h1>Contact</h1>
+                    <a href="mailto:contact@moldygd.com" class="footer-link contact"><i class="ri-mail-line"></i> <span>contact@moldygd.com</span></a>
+                    <span class="footer-link contact"><i class="ri-map-pin-line"></i> Based in Canada</span>
+                    <div class="socials">
+                        <a href="https://youtube.com/@MoldyGD"><i class="ri-youtube-fill"></i></a>
+                        <a href="https://discord.gg/PqTUgx6"><i class="ri-discord-fill"></i></a>
+                        <a href="https://twitter.com/MoldyMacaroniX"><i class="ri-twitter-fill"></i></a>
+                        <a href="/social-media/"><i class="ri-more-fill"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="note">
                 <div>Copyright © <span id="year"></span><script>document.getElementById("year").innerHTML = new Date().getFullYear();</script> MoldyGD.com</div>
-                <div>MoldyGD.com is not associated with RobTopGames AB</div>
+                {# <div>MoldyGD.com is not associated with RobTopGames AB</div> #}
+                <div><a href="/video-usage/">Video Usage Policy</a> · <a href="/privacy-policy/">Privacy Policy</a></div>
             </div>
         </div>
 
