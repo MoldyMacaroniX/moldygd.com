@@ -11,6 +11,7 @@ I love it when creators use my content to create something of their own! I just 
 - Follow the law.
 - Do not blatantly reupload my content.
 - Do not use any of my content in advertisements or promotional material.
+- Do not use any of my content to train AI.
 - You are free to use clips from my content under fair use.
 - Credit me! Just toss a link to the original source in your description.
 <!-- - Credit is appreciated! Just toss a link to the source in your description. -->
