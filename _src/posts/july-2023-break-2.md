@@ -7,7 +7,7 @@ I will be taking a break during July 22nd to July 29th. This means there will be
 
 I know I just had a break over the week of July 1st to July 9th, but this is my second and final break of the year.
 
-This place, I won't be travelling to a foreign place on vacation, but I'm going to see family in my country.
+This time, I won't be travelling to a foreign place for vacation, but I'm going to see family in my country.
 
 ---
 
