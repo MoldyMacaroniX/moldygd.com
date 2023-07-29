@@ -294,11 +294,11 @@ a {
     margin-top: 10px;
 }
 
-.footer .note a {
+.note a {
     transition: 0.25s color ease;
 }
 
-.footer .note a:hover {
+.note a:hover {
     color: var(--print);
 }
 
@@ -463,8 +463,8 @@ b, strong {
 }
 
 .card:focus {
-    border-radius: var(--radius);
-    outline-offset: 0px;
+    outline: none !important;
+    box-shadow: 0px 0px 0px 3px var(--primary);
 }
 
 .card .col {
@@ -683,6 +683,25 @@ article, .article {
     font-size: 1.3rem;
     font-weight: bold;
     cursor: pointer;
+}
+
+.menu .menu-link span {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.menu .note {
+    margin-top: auto;
+    padding: 25px;
+    color: var(--print-dim);
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.menu .note a {
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 1000px) {
