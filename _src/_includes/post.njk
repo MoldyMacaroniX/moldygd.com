@@ -13,4 +13,5 @@ layout: base.njk
     <div class="article">
         {{ content | safe }}
     </div>
+    {% if isPost %}<a href="/archive/" class="btn">See More Posts</a>{% endif %}
 </article>
