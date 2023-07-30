@@ -14,7 +14,7 @@ Stream mods are generally picked from two sources:
 
 Here's the general roadmap for becoming a livestream mod:
 
-1. **Be active in the Discord server and on streams.** We only accept Discord staff applications if we know you are active. You will also need to be a high level in the server to be eligible for Discord staff.
-2. **Form relations with Moldy or other staff members.** In order to be accepted for Discord staff, we need to know we can trust you. You will only have a chance at acceptance if a staff member can vet for you.
+1. **Be active in the Discord server and on streams.** We only accept Discord staff applications if we know you are active. You will also need to be a certain level in the server to be eligible for Discord staff.
+2. **Form relations with Moldy or other staff members.** In order to be accepted for Discord staff, we need to know we can trust you. You will only have a chance at acceptance if a staff member can vouch for you.
 3. **Apply and get accepted for Discord staff.** Applications typically open every few months.
 4. **Pass the trainee staff phase to become a full staff.** After this, you will be eligible for stream mod if you are active in stream chat.
