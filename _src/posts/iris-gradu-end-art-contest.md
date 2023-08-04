@@ -18,7 +18,7 @@ The goal is simple: make a good end screen for our level. The requirements are a
 In addition, you must include the following information in the end screen:
 
 - **Level Name:** Iris Gradu
-- **Creators:** Ronlix, Purzin, V3ntique, Moldy, Kivixi, ClingingBog, Culuc, Bli, Kivvi, **and you!** (For making the end screen.)
+- **Creators:** Ronlix, Purzin, V3ntique, Moldy, Kivixi, ClingingBog, Culuc, Bli, Kivvvi, **and you!** (For making the end screen.)
 
 We recommend making your end screen dynamic. As in, use triggers to make it move instead of stay still. Remember to use spawn loops so whatever animations you make continue even once the level has ended. Also try and make your end screen rainbow and follow the level's theme. Here are some finished parts you can use as inspiration:
 
