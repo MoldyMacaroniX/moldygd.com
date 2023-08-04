@@ -12,6 +12,7 @@ The goal is simple: make a good end screen for our level. The requirements are a
 - You need to use these **color channels** and **group IDs**: 710-810
 - You need to use color triggers to set the colors for your end screen
 - Your end screen needs to fit the full width of the screen in the ship game mode
+- The level's song is [Creo x Exyl - Cosmic War](https://www.newgrounds.com/audio/listen/1211787) and the start offset for the end screen is **150 seconds**.
 - You don't have to make a transition, as that will be done by someone else
 - The level's text object font is **pusab** (the default font for a newly created level). That being said, we recommend you make your own custom font!
 
