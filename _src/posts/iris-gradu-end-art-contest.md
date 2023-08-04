@@ -15,6 +15,7 @@ The goal is simple: make a good end screen for our level. The requirements are a
 - The level's song is [Creo x Exyl - Cosmic War](https://www.newgrounds.com/audio/listen/1211787) and the start offset for the end screen is **150 seconds**.
 - You don't have to make a transition, as that will be done by someone else
 - The level's text object font is **pusab** (the default font for a newly created level). That being said, we recommend you make your own custom font!
+- There is no set length for your end screen, but it shouldn't be super long. Anything between 1-10 seconds should be good.
 
 In addition, you must include the following information in the end screen:
 
