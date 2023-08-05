@@ -43,7 +43,7 @@ Keep an eye on my [YouTube community posts](https://www.youtube.com/@MoldyGD/com
     <button class="accordion-header">Can I make my end screen look like _____? <i class="ri-arrow-right-s-line accordion-icon"></i></button>
     <div class="accordion-body">
         <p>
-            So long as you follow the rules and don't make your end screen inappropriate, anything is allowed.
+            So long as you follow the rules, stick to the rainbow theme, and don't make your end screen inappropriate, anything is allowed.
         </p>
     </div>
 </div>
