@@ -1,81 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Video Preview</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
-
-<div class="grid">
-
-    <div class="inputs">
-
-        <form>
-            <label>Video Title</label><br>
-            <input id="new-title" placeholder="Top 5 Unsolved MYSTERIES in Geometry Dash!"><br>
-            <label>Username</label><br>
-            <input id="new-username" placeholder="MoldyMacaroniX"><br>
-            <label>Views</label><br>
-            <input id="new-views" placeholder="4.1K views"><br>
-            <label>Video Age</label><br>
-            <input id="new-time" placeholder="2 hours ago"><br>
-            <label>Video Length</label><br>
-            <input id="new-length" placeholder="10:46"><br>
-            <br>
-            <label>Thumbnail (URL)</label><br>
-            <input id="new-thumb" placeholder="mol.dy/file.png"><br>
-            <label>Avatar (URL)</label><br>
-            <input id="new-avatar" placeholder="mol.dy/file.png"><br>
-            <br>
-            <input id="new-live" type="checkbox"><label>Make video live?</label><br>
-            <input id="new-premiere" type="checkbox"><label>Make video a premiere?</label><br>
-            <input id="new-truncate" type="checkbox"><label>Remove Truncate?</label><br>
-            <input id="new-verified" type="checkbox"><label>Verified?</label><br>
-            <br>
-            <a onclick="generateVideo()">Submit</a>
-        </form>
-        
+<div style="height: 100vh; width: 100%; display: flex; align-items: center; justify-content: center; padding: 25px; box-sizing: border-box;">
+    <div style="background-color: rgba(0, 0, 0, 0.1); width: fit-content; font-family: sans-serif; text-align: center; padding: 25px; border-radius: 10px;">
+        <h1 style="margin: 0;">The YouTube Thumbnail Previewer has moved to <a href="https://www.thumbnail.live/" style="color: rgb(255, 0, 0);">www.thumbnail.live</a>.</h1>
     </div>
-
-    <div>
-
-        <div class="content">
-            <div class="thumbnail">
-                <span id="length">10:46</span>
-                <div class="thumbnail-img"></div>
-            </div>
-            <div class="info">
-                <img id="avatar" src="/assets/logo.png" class="avatar">
-                <div class="text">
-                    <h3 id="title" title="Top 5 Unsolved MYSTERIES in Geometry Dash!">Top 5 Unsolved MYSTERIES in Geometry Dash!</h3>
-                    <p><span class="name"><span id="username1">MoldyMacaroniX</span><span class="name-text" id="username2">MoldyMacaroniX</span></span> <div class="verified">
-                        <!-- <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="width: 100%; height: 100%;"><g class="style-scope yt-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10 S17.52,2,12,2z M9.92,17.93l-4.95-4.95l2.05-2.05l2.9,2.9l7.35-7.35l2.05,2.05L9.92,17.93z"></path></g></svg> -->
-                        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M12,2C6.5,2,2,6.5,2,12c0,5.5,4.5,10,10,10s10-4.5,10-10C22,6.5,17.5,2,12,2z M9.8,17.3l-4.2-4.1L7,11.8l2.8,2.7L17,7.4 l1.4,1.4L9.8,17.3z" class="style-scope yt-icon"></path></g></svg>
-                    <span class="verified-text">Verified</span></div></p>
-                    <p class="extra"><span id="views">4.1K views</span> <span class="live-remover">• <span id="time">2 hours ago</span></span></p>
-                    <span class="premiere-mark">SET REMINDER</span>
-                    <span class="live-mark">LIVE NOW</span>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="summary">
-        <p>
-            This is a tool used to see how video titles and thumbnails will look in a way near-identical to YouTube's.<br>
-            - Moldy
-        </p>
-        <p style="font-size: 15px;">
-            <a href="/tools/">See other tools</a>
-        </p>
-    </div>
-
 </div>
-
-    <script src="main.js"></script>
-    
-</body>
-</html>
