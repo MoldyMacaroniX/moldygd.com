@@ -3,7 +3,7 @@ title: Website Commissions
 date: 2023-08-16
 ---
 
-As of today, I will begin doing website commissions! For just **$30 USD**, I'll make you a website like the ones I currently operate.
+As of today, I thought it would be fun to begin doing website commissions! For just **$30 USD**, I'll make you a website like the ones I currently operate.
 
 **I believe that everyone should have a website.** They are super cheap and easy to host thanks to rapid development in the industry. I can make you a website and help you get it online with a domain (like yourname.com) for just a one time fee of **$30 USD**.<sup>1</sup>
 
