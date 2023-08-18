@@ -599,11 +599,11 @@ article, .article {
 
 .article ul {
     list-style: square;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .article ol {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .article li::marker {
