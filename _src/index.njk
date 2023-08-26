@@ -49,7 +49,7 @@ title: I Am A Geometry Dash YouTuber
     <div class="disclaimer">*Data from latest 10 videos as of June 2023</div>
 </div>
 
-<div class="panel cols center" id="audience">
+{# <div class="panel cols center" id="audience">
     <div class="col panel-content">
         <h1>My Audience</h1>
         <p>
@@ -61,20 +61,39 @@ title: I Am A Geometry Dash YouTuber
             <img src="/assets/gd.jpg" alt="">
         </div>
     </div>
-</div>
+</div> #}
 
-<div class="panel panel-invert cols center" id="videos">
+<div class="panel cols center" id="videos">
     <div class="col panel-content">
-        <h1>My Videos</h1>
+        <h1>Latest Video</h1>
         <p>
             My videos are my specialty. They reliably get a minimum of over 100K+ views, with the average being much higher!
         </p>
+        <a href="https://www.youtube.com/@MoldyGD/videos" class="btn">See All My Videos</a>
     </div>
     <div class="col panel-image">
         <div class="aspect">
-            {# <img src="/assets/thumb.jpg" alt=""> #}
             <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLvG1lI0KWDE2TN-g5K15m9smMaoOEXhI-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+    </div>
+</div>
+
+<div id="archive" style="display: flex; flex-direction: column; gap: 25px;">
+    <div class="panel" style="display: flex; flex-direction: column; gap: 25px;">
+        <h1>My Blog</h1>
+        <p>
+            Here is the latest from my blog. I post about everything here—from business oriented news to random things I find on the internet.
+        </p>
+    </div>
+    <div class="grid-3" style="gap: 20px;">
+        {% for post in collections.posts | reverse %}
+            {% if loop.index < 4 %}
+                <a href="{{ post.url }}" class="post">
+                    <h1 class="title">{{ post.data.title }}</h1>
+                    <div class="meta">{% if post.data.date %}Published on {{ post.data.date | date }}. {% if post.data.update %} (Last updated on   {{ post.data.update | date }}.){% endif %}{% else %}No date provided.{% endif %}</div>
+                </a>
+            {% endif %}
+        {% endfor %}
     </div>
 </div>
 

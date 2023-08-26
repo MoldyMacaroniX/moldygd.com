@@ -142,7 +142,8 @@ a {
     width: fit-content;
     align-items: center;
     justify-content: center;
-    color: var(--print);
+    color: var(--print) !important;
+    text-decoration: none !important;
     background-color: var(--primary);
     font-weight: bold;
     padding: 12px 25px;
@@ -722,6 +723,9 @@ article, .article {
     }
     .hero h1 {
         font-size: 3rem;
+    }
+    .grid-3 {
+        grid-template-columns: 1fr;
     }
 }
 
