@@ -585,6 +585,13 @@ article, .article {
     line-height: 1.75;
 }
 
+.article blockquote {
+    font-style: italic;
+    border-left: 4px solid var(--primary);
+    padding: 5px 0;
+    padding-left: 15px;
+}
+
 .article hr {
     margin: 25px 0;
     border: 0px solid;
