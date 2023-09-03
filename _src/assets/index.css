@@ -542,6 +542,22 @@ b, strong {
     color: var(--print-dim);
 }
 
+/* Banner */
+
+.banner {
+    color: var(--white);
+    background-color: var(--primary-dark);
+    padding: 5px;
+    font-size: 1.1rem;
+    border-bottom: 2px solid var(--primary);
+}
+
+.banner a {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 /* Alert */
 
 .alert {

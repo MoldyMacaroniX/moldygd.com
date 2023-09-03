@@ -2,6 +2,31 @@
 title: Privacy Policy
 ---
 
+At MoldyGD.com, we take privacy very seriously. If you have any questions about this Privacy Policy, please contact us at [contact@moldygd.com](mailto:contact@moldygd.com).
+
+# Consent
+
+By using this website, you consent to this Privacy Policy and its terms.
+
+# Information we collect
+
+We may collect anonymous usage data about visitors on our site. This data is anonymous and cannot be traced back to you personally. We use this data to analyze our site performance, such as to see how many users are on our site and where our users are located in the world.
+
+We might also be able to access the sender's email address, name, and content of any emails you send us.
+
+# Third party privacy policies
+
+This Privacy Policy does not apply to other third party services that we use. We recommend you familiarize yourself with their Privacy Policies.
+
+# Contact us
+
+If you ever need to make a request, please contact us at [contact@moldygd.com](mailto:contact@moldygd.com).
+
+
+
+
+<!--
+
 At MoldyGD.com, accessible from [https://www.moldygd.com](/), one of our top core values is privacy. This Privacy Policy outlines what information we collect and how we use it.
 
 If you have any questions about this privacy policy, do not be afraid to contact us at [contact@moldygd.com](mailto:contact@moldygd.com).
@@ -13,8 +38,6 @@ By using our website, you hereby consent to our Privacy Policy and agree to its 
 # Information we collect
 
 MoldyGD.com may collect information you provide us. For example, we may be able to access your email address and the contents of any emails you send us.
-
-<!-- MoldyGD.com also collects anonymous usage data about our users. None of this information can be traced back to you personally. -->
 
 # How we use your information
 
@@ -32,12 +55,6 @@ MoldyGD.com, like most websites, use log files. All hosting companies do this. T
 * Number of clicks
 
 None of this information is personally identifiable and cannot be directly traced back to you.
-
-<!-- # Cookies
-
-Like every website, MoldyGD.com uses "cookies." These cookies are used to store your preferences, such as whether or not you prefer to use dark mode. We cannot access the contents of any cookies on your machine.
-
-You can disable cookies on this website in your browser settings. -->
 
 # Third party privacy policies
 
@@ -81,4 +98,4 @@ MoldyGD.com does not knowingly collect any Personal Identifiable Information fro
 
 # Attribution
 
-Our privacy policy is made with the help of [privacypolicygenerator.info](https://www.privacypolicygenerator.info/).
+Our privacy policy is made with the help of [privacypolicygenerator.info](https://www.privacypolicygenerator.info/). -->
