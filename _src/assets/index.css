@@ -420,6 +420,12 @@ a {
     margin: 15px 0;
 }
 
+.accordion-body a {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 b, strong {
     color: var(--print);
 }
