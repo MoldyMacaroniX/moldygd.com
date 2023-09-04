@@ -547,8 +547,9 @@ b, strong {
 .banner {
     color: var(--white);
     background-color: var(--primary-dark);
-    padding: 5px;
+    padding: 6px;
     font-size: 1.1rem;
+    border-top: 2px solid var(--primary);
     border-bottom: 2px solid var(--primary);
 }
 
