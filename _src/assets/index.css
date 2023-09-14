@@ -615,6 +615,15 @@ article, .article {
     padding-left: 15px;
 }
 
+.article pre {
+    background-color: var(--primary-dark);
+    border: 2px solid var(--primary);
+    padding: 25px;
+    font-size: 1.2rem;
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
 .article hr {
     margin: 25px 0;
     border: 0px solid;

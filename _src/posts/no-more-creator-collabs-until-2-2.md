@@ -3,6 +3,8 @@ title: No More Creator Collabs Until 2.2
 date: 2023-09-03
 ---
 
+For more information on how to invite me to collabs, see my [collab invitation guide](/collabs/).
+
 Due to working on my Geometry Dash 2.2 content plans, I will not be accepting any creator collabs during the month of September.
 
 I will still be open to sponsorships, however. If you would like to promote something with me, send me an email at [contact@moldygd.com](mailto:contact@moldygd.com).
