@@ -7,7 +7,7 @@ Over the past few months, I've considered making a newsletter. I just never had 
 
 The idea is that I will run a small, about weekly newsletter to update dedicated fans on my upcoming videos and streams. I will also give my thoughts on general Geometry Dash topics going around that week.
 
-It may also cover random topics I'm interested in, [like this blog does](/archive/), but that won't be the focus.
+It may also cover random topics I'm interested in, [like this blog does](/archive/), but that won't be the focus. It may also feature some blog posts I write that week, if any.
 
 There won't be a strict schedule, but it will probably go out about weekly.
 
