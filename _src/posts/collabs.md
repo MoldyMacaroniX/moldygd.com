@@ -5,7 +5,7 @@ date: 2023-09-14
 
 I genuinely want to connect with up and coming Geometry Dash YouTubers of any size! As such, I allow collab invitations from anyone, no matter their size. If you're a Geometry Dash YouTuber who wants to invite me to your video, continue reading!
 
-*Note that I no longer accept mega collab invites from people I don't know very well, so please, do not send them to me! This guide is only for video invites.*
+*Note that I no longer accept level collab invites from people I don't know very well, so please, do not send them to me! This guide is only for video invites only.*
 
 # Prerequisites
 

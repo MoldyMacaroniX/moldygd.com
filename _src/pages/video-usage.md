@@ -54,4 +54,4 @@ I love seeing what people think of my content, hence why I will allow ethical re
 
 **I will do my best to contact uploaders before striking any content.** That being said, for clear or urgent violations of these rules, I may strike without warning.
 
-If you would like to make excepts to this policy, such as to use my content in an ad campaign, please [contact me](/#contact).
+If you would like to make excepts to this policy, such as to use my content in an ad campaign, please [contact me](/contact/).
