@@ -3,7 +3,7 @@ layout: base.njk
 title: Blog
 pagination:
     data: collections.posts
-    size: 6
+    size: 9
     alias: posts
     reverse: true
     generatePageOnEmptyData: true
@@ -16,11 +16,11 @@ permalink: "archive/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber +
         <h1>Blog</h1>
     </div>
 
-    <div class="posts">
+    <div class="grid-3" style="gap: 20px;">
     {% for post in posts %}
         <a href="{{ post.url }}" class="post">
             <h1 class="title">{{ post.data.title }}</h1>
-            <div class="meta">{% if post.data.date %}Published on {{ post.data.date | date }}. {% if post.data.update %} (Last updated on {{ post.data.update | date }}.){% endif %}{% else %}No date provided.{% endif %}</div>
+            <div class="meta">{% if post.data.date %}Published on {{ post.data.date | date }}. {% if post.data.update %} (Last updated on   {{ post.data.update | date }}.){% endif %}{% else %}No date provided.{% endif %}</div>
         </a>
     {% else %}
         <div class="panel">

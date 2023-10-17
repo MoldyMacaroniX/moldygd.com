@@ -4,7 +4,7 @@ title: Social Media
 
 Since not all of my accounts are recognized with a verified tick, and with a verified tick itself becoming less an indicator for authenticity on some platforms, here is a list of all official Moldy social media accounts.
 
-- **You can view my main social media platforms on my bio.link profile:** [https://bio.link/moldy](https://bio.link/moldy)
+- **You can view my active social media platforms on my bio.link profile:** [https://bio.link/moldy](https://bio.link/moldy)
 
 ---
 
@@ -14,7 +14,7 @@ YouTube is my main platform.
 
 * **YouTube:** [@MoldyGD](https://youtube.com/@MoldyGD)
 
-# Other Platforms
+# Active Platforms
 
 These are other platforms I am active on.
 
@@ -22,9 +22,8 @@ These are other platforms I am active on.
 * **Discord Server:** [https://discord.gg/PqTUgx6](https://discord.gg/PqTUgx6)
 * **Twitter:** [@MoldyMacaroniX](https://twitter.com/MoldyMacaroniX)
 * **Geometry Dash Profile:** [CreatorMoldy](https://gdbrowser.com/u/CreatorMoldy)
-* **Bio.link:** [https://bio.link/moldy](https://bio.link/moldy)
 
-# Remaining Platforms
+# Inactive Platforms
 
 These are less active accounts that I still own.
 
