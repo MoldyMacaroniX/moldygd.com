@@ -1,11 +1,11 @@
 ---
-title: Moldy Discord Verification Requirements
+title: Moldycord Verification Requirements
 date: 2023-09-09
 ---
 
-To be eligible for the **@Verified** role on the official [Moldy Discord server](https://moldygd.com/discord), you will need to meet at least one of the following requirements:
+To be eligible for the **@Verified** role on [Moldycord](https://moldygd.com/discord), you will need to meet at least one of the following requirements:
 
-- A Geometry Dash focused YouTube channel with at least **10,000 subscribers**
+- A Geometry Dash focused YouTube channel with at least **10,000 subscribers** (excluding shorts-focused channels)
 - A Geometry Dash focused Twitch channel with at least **10,000 followers**
 - At least **50 creator points** in Geometry Dash
 - Be a Geometry Dash **Moderator** or **Elder Moderator**

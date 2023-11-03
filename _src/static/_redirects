@@ -20,3 +20,7 @@ https://moldymacaronix.netlify.com/*   https://www.moldygd.com/:splat   301!
 /verification/ /social-media/
 /verify/ /social-media/
 /bluesky/ https://bsky.app/profile/moldygd.com
+
+# changed urls
+
+/discord-verification-requirements/ /moldycord-verification/
