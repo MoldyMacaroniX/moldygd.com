@@ -219,6 +219,7 @@ a {
 
 .navbar {
     justify-content: space-between;
+    height: 100px;
 }
 
 .navbar .left, .navbar .right {
@@ -237,7 +238,7 @@ a {
 
 .items .item {
     font-size: 1.15rem;
-    height: 100px;
+    height: 50px;
     padding: 0 15px;
     transition: color 0.25s ease;
 }
@@ -628,7 +629,7 @@ article, .article {
 }
 
 .article hr {
-    margin: 25px 0;
+    margin: 15px 0;
     border: 0px solid;
     width: 100%;
     height: 5px;
