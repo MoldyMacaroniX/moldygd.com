@@ -38,6 +38,7 @@
     <div class="menu" id="menu" tabindex="-1">
         <div class="menu-close" id="close" tabindex="0" onclick="closeMobile();" onkeydown="if (event.keyCode === 13) {closeMobile()}"><i class="ri-close-line"></i></div>
         <a href="/" class="menu-link" onclick="closeMobile();" onkeydown="if (event.keyCode === 13) {closeMobile()}"><span>Home</span></a>
+        <a href="/join/" class="menu-link" onclick="closeMobile();" onkeydown="if (event.keyCode === 13) {closeMobile()}"><span>Join</span></a>
         <a href="/archive/" class="menu-link" onclick="closeMobile();" onkeydown="if (event.keyCode === 13) {closeMobile()}"><span>Blog</span></a>
         <a href="/faq/" class="menu-link" onclick="closeMobile();" onkeydown="if (event.keyCode === 13) {closeMobile()}"><span>FAQ</span></a>
         <a href="/contact/" class="menu-link" onclick="closeMobile();" onkeydown="if (event.keyCode === 13) {closeMobile()}"><span>Get In Touch</span></a>
@@ -75,6 +76,7 @@
                 </a>
                 <div class="items">
                     <a href="/" class="item">Home</a>
+                    <a href="/join/" class="item"><i class="ri-sparkling-fill"></i> <span>Join</span></a>
                     <a href="/archive/" class="item">Blog</a>
                     <a href="/faq/" class="item">FAQ</a>
                     <a href="/contact/" class="item">Get In Touch</a>
@@ -137,10 +139,13 @@
                 </div>
                 <div class="col">
                     <h1>Quick Links</h1>
-                    <a href="/" class="footer-link">Home</a>
-                    <a href="/archive/" class="footer-link">Blog</a>
-                    <a href="/faq/" class="footer-link">FAQ</a>
-                    <a href="/contact/" class="footer-link">Get In Touch</a>
+                    <div class="grid-2" style="gap: 5px;">
+                        <a href="/" class="footer-link">Home</a>
+                        <a href="/join/" class="footer-link">Join</a>
+                        <a href="/archive/" class="footer-link">Blog</a>
+                        <a href="/faq/" class="footer-link">FAQ</a>
+                        <a href="/contact/" class="footer-link">Get In Touch</a>
+                    </div>
                 </div>
                 <div class="col">
                     <h1>Contact</h1>

@@ -241,6 +241,17 @@ a {
     height: 50px;
     padding: 0 15px;
     transition: color 0.25s ease;
+    gap: 5px;
+}
+
+.items .item span {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.items .item i {
+    color: var(--primary);
+    font-size: 1.1em;
 }
 
 .items .item:hover {
@@ -683,7 +694,7 @@ article, .article {
     overflow: auto;
     background-color: var(--primary-dark);
     width: 250px;
-    height: 100vh;
+    height: 100%;
     z-index: 500;
     flex-direction: column;
     flex-shrink: 0;
@@ -706,6 +717,8 @@ article, .article {
     opacity: 0;
     cursor: pointer;
     transition: opacity 0.25s ease;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     display: none;
 }
 
