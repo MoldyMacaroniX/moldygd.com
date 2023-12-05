@@ -220,6 +220,7 @@ a {
 .navbar {
     justify-content: space-between;
     height: 100px;
+    position: relative;
 }
 
 .navbar .left, .navbar .right {
@@ -242,6 +243,14 @@ a {
     padding: 0 15px;
     transition: color 0.25s ease;
     gap: 5px;
+}
+
+/* Center navbar items */
+.navbar .items {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .items .item span {
@@ -727,8 +736,8 @@ article, .article {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 73px;
-    width: 73px;
+    height: 75px;
+    width: 75px;
     top: 0;
     right: 0;
     font-size: 2rem;
@@ -736,10 +745,14 @@ article, .article {
 }
 
 .menu .menu-link {
-    padding: 25px;
+    padding: 20px;
     font-size: 1.3rem;
     font-weight: bold;
     cursor: pointer;
+}
+
+.menu .menu-link:first-of-type {
+    padding-top: 30px;
 }
 
 .menu .menu-link span {
