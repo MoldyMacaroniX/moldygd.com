@@ -52,7 +52,7 @@ That being said, I can do everything else! Even backend content management syste
 
 # Talk to me
 
-Email me at [contact@moldygd.com](mailto:contact@moldygd.com) to discuss the commission! Alternatively, if you have access<sup>2</sup> to my direct messages already, you can talk to me there.
+Email me at [moldy@moreyellow.com](mailto:moldy@moreyellow.com) to discuss the commission! Alternatively, if you have access<sup>2</sup> to my direct messages already, you can talk to me there.
 
 ---
 
