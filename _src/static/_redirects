@@ -24,3 +24,7 @@ https://moldymacaronix.netlify.com/*   https://www.moldygd.com/:splat   301!
 # changed urls
 
 /discord-verification-requirements/ /moldycord-verification/
+
+# Shortlinks
+
+/games/ https://discord.gg/PqTUgx6
