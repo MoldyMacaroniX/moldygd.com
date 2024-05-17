@@ -20,7 +20,7 @@ These are other platforms I am active on.
 
 * **Discord Profile:** [moldygd](https://discordapp.com/users/328660527699984394)
 * **Discord Server:** [https://discord.gg/PqTUgx6](https://discord.gg/PqTUgx6)
-* **Twitter:** [@MoldyMacaroniX](https://twitter.com/MoldyMacaroniX)
+* **X (formerly Twitter):** [@MoldyMacaroniX](https://x.com/MoldyMacaroniX)
 * **Geometry Dash Profile:** [CreatorMoldy](https://gdbrowser.com/u/CreatorMoldy)
 
 # Inactive Platforms
