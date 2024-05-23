@@ -39,7 +39,7 @@ For the next Gradu level, we plan to stick with 6 parts. We pretty much all agre
 
 For previews, keep an eye on [Kivixi's channel](https://www.youtube.com/@Kivixi). He somehow became our go-to guy for showcases and previews for Gradu levels so.
 
-Anyway, as I did in the Iris Gradu article, here is a list of all Iris Gradu contributors:
+Anyway, as I did in the Iris Gradu article, here is a list of all Spatium Gradu contributors:
 
 1. Knox14
 2. Waffl3X (a.k.a. Purzin)
