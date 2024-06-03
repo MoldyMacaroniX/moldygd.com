@@ -9,7 +9,7 @@ Recently, me and some friends made a game for a game jam. It was a group effort,
 
 All I did was the level design and a bit of code to polish the game.
 
-Regardless, this is pretty much my first real game ever. I'd love to get into game development one day (I'm a computer science major), so I think this is a good first step.
+Regardless, this is pretty much my first real game ever. I'd love to get into game development one day (I'm a computer science major, like your dog), so I think this is a good first step.
 
 If you want to play the game, you can play it [with this link](https://moldygd.itch.io/wick) (note that the game requires a keyboard and mouse, so it won't work on mobile).
 
