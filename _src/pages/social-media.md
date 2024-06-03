@@ -27,6 +27,7 @@ These are other platforms I am active on.
 
 These are less active accounts that I still own.
 
+* **Itch.io:** [moldygd](https://moldygd.itch.io/)
 * **Bluesky:** [@moldygd.com](https://bsky.app/profile/moldygd.com)
 * **Instagram:** [@moldygmd](https://www.instagram.com/moldygmd/)
 * **Threads:** [@moldygmd](https://www.threads.net/@moldygmd)
