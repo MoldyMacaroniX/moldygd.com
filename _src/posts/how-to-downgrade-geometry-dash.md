@@ -8,3 +8,5 @@ Follow [this YouTube tutorial](https://youtu.be/44HBxzC_RTg) and use the followi
 - **App ID:** 322170
 - **Depot ID:** 322171
 - **Manifest ID:** 2530486154587189554
+
+This will downgrade Geometry Dash from 2.206 to 2.204 on Steam.
