@@ -1,6 +1,7 @@
 ---
 title: Should I Make A Newsletter?
 date: 2023-09-29
+desc: Over the past few months, I've considered making a newsletter. I just never had an idea for one. But lately, I have!
 ---
 
 Over the past few months, I've considered making a newsletter. I just never had an idea for one. But lately, I have!

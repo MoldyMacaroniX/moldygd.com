@@ -1,6 +1,7 @@
 ---
 title: Iris Gradu Finished
 date: 2023-09-23
+desc: This is by far the most fun I've had playing Geometry Dash in a long while. And I believe the reason for that to be because Iris Gradu was so free.
 ---
 
 This is by far the most fun I've had playing Geometry Dash in a long while. And I believe the reason for that to be because Iris Gradu was so free.

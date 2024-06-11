@@ -1,5 +1,6 @@
 ---
 title: Social Media
+desc: Since not all of my accounts are recognized with a verified tick, and with a verified tick itself becoming less an indicator for authenticity on some platforms, here is a list of all official Moldy social media accounts.
 ---
 
 Since not all of my accounts are recognized with a verified tick, and with a verified tick itself becoming less an indicator for authenticity on some platforms, here is a list of all official Moldy social media accounts.

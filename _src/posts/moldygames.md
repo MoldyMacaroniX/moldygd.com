@@ -1,6 +1,7 @@
 ---
 title: How To Play MoldyGames With The Globed Multiplayer Mod
 date: 2024-03-03
+desc: MoldyGames is a minigame hub in Geometry Dash. It has lots of unique minigames you can play with your friends! However, in order to see other players, you will need the Globed mod. Here is how to get that set up.
 ---
 
 MoldyGames is a minigame hub in Geometry Dash. It has lots of unique minigames you can play with your friends! However, in order to see other players, you will need the Globed mod. Here is how to get that set up.

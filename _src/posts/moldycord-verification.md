@@ -1,9 +1,10 @@
 ---
 title: Moldycord Verification Requirements
 date: 2023-09-09
+desc: "To be eligible for the @Verified role on Moldycord, you will need to meet at least one of the following requirements:"
 ---
 
-To be eligible for the **@Verified** role on [Moldycord](https://moldygd.com/discord), you will need to meet at least one of the following requirements:
+To be eligible for the **@Verified** role on [Moldycord](https://link.moldygd.com/discord), you will need to meet at least one of the following requirements:
 
 - A Geometry Dash focused YouTube channel with at least **10,000 subscribers** (excluding shorts-focused channels)
 - A Geometry Dash focused Twitch channel with at least **10,000 followers**

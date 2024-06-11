@@ -1,6 +1,7 @@
 ---
 title: My Final 2.1 Level Is Out
 date: 2023-10-22
+desc: I recently released my final 2.1 level, Tropical Temple. After over 6 years of 2.1, this is where my level creation journey for this update finally ends.
 ---
 
 I recently released my final 2.1 level, [Tropical Temple](https://gdbrowser.com/95392499). After [over 6 years of 2.1](https://www.dashword.net/posts/geometry-dash-2-2-wait-turns-6-years-old/), this is where my level creation journey for this update finally ends.

@@ -1,6 +1,7 @@
 ---
 layout: post.njk
 title: Get In Touch
+desc: There are numerous ways to contact me depending on what you need.
 ---
 
 There are numerous ways to contact me depending on what you need.

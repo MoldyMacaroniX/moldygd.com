@@ -1,6 +1,7 @@
 ---
 title: Iris Gradu End Art Contest
 date: 2023-08-04
+desc: Hello everyone! As you may know, I'm hosting a rainbow themed mega collab called Iris Gradu. However, this level still needs an end screen. But instead of getting someone to make one for us, we thought we'd host an end screen contest!
 ---
 
 Hello everyone! As you may know, I'm hosting a rainbow themed mega collab called **Iris Gradu**. However, this level still needs an end screen. But instead of getting someone to make one for us, we thought we'd host an end screen contest!

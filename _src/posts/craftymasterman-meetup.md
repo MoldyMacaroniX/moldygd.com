@@ -1,6 +1,7 @@
 ---
 title: Moldy & CraftyMasterman Meetup
 date: 2024-06-07
+desc: Today, me and CraftyMasterman met up in person!
 ---
 
 Today, me and [CraftyMasterman](https://www.youtube.com/@CraftyMasterman) met up in person!

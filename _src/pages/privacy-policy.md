@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+desc: The Privacy Policy for MoldyGD.com
 ---
 
 At MoldyGD.com, we take privacy very seriously.

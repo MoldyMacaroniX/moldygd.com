@@ -1,6 +1,7 @@
 ---
 title: I Confess. I Made One More 2.1 Video.
 date: 2023-11-08
+desc: While I originally said I would not release another video until Geometry Dash 2.2, with the update being delayed (seriously?) I went ahead and made one more video in 2.1.
 ---
 
 While I originally said [I would not release another video until Geometry Dash 2.2](/my-final-2-1-video-is-out-now-what/), with the update [being delayed](https://www.dashword.net/posts/geometry-dash-2-2-release-date-delayed-until-november-2023/) (seriously?) I went ahead and made one more video in 2.1.

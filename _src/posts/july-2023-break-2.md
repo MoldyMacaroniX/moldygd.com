@@ -1,6 +1,7 @@
 ---
-title: Taking A Break From July 22nd to July 29th
+title: Taking A Break From July 22nd to July 29th (2023)
 date: 2023-07-14
+desc: I will be taking a break during July 22nd to July 29th. This means there will be no streams, no videos, and email response time may be slower than usual.
 ---
 
 I will be taking a break during July 22nd to July 29th. This means there will be no streams, no videos, and email response time may be slower than usual.

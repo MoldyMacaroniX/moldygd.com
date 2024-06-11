@@ -1,6 +1,7 @@
 ---
 title: Burnout
 date: 2023-09-17
+desc: Burnout is something I hear a lot of YouTubers talk about. For the longest time, I've taken pride in not ever really getting burnout as a YouTuber. With my upload schedule only demanding one video a *month*, I considered myself immune to burnout.
 ---
 
 **Burnout** is something I hear a lot of YouTubers talk about. For the longest time, I've taken pride in not ever really getting burnout as a YouTuber. With my upload schedule only demanding one video a *month*, I considered myself immune to burnout.

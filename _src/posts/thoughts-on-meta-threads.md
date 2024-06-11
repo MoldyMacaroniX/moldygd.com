@@ -1,6 +1,7 @@
 ---
 title: Thoughts On Meta Threads
 date: 2023-07-09
+desc: My five biggest issues with Meta Threads
 ---
 
 My five biggest issues with Meta Threads:

@@ -1,6 +1,7 @@
 ---
 title: No More Breaks This Year, I Promise
 date: 2023-07-29
+desc: Every year, I give myself two weeks off to go on vacation and see family. I have officially used up those weeks for 2023, meaning I should not be travelling anymore except for emergencies.
 ---
 
 Every year, I give myself two weeks off to go on vacation and see family. I have officially used up those weeks for 2023, meaning I should not be travelling anymore except for emergencies.

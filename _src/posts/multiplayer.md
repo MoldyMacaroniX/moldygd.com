@@ -1,6 +1,7 @@
 ---
 title: How I Made Multiplayer In Geometry Dash 2.2
 date: 2024-01-06
+desc: With platformer mode, I knew wanted to recreate live multiplayer somehow. It would just fit the new mode so well. But doing so was challenging.
 ---
 
 With platformer mode, I knew wanted to recreate live multiplayer somehow. It would just fit the new mode so well. But doing so was challenging.

@@ -1,6 +1,7 @@
 ---
 title: Website Commissions
 date: 2023-08-16
+desc: As of today, I thought it would be fun to begin doing website commissions! For just **$30 USD**, I'll make you a website like the ones I currently operate.
 ---
 
 As of today, I thought it would be fun to begin doing website commissions! For just **$30 USD**, I'll make you a website like the ones I currently operate.

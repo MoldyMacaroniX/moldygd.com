@@ -1,6 +1,7 @@
 ---
 title: Spatium Gradu Finished
 date: 2024-05-11
+desc: Don't get me wrong. Spatium Gradu was fun. We gave creators a lot of freedom just like the first level (although maybe a bit less due to the harder theme) and collaborated with mostly the same group of people. We even started right after 2.2 dropped, so we all had loads of ideas. But unlike Iris Gradu, as time passed, this level became more and more a pain to finish.
 ---
 
 I opened my [Iris Gradu article](/iris-gradu-finished/) with the following:

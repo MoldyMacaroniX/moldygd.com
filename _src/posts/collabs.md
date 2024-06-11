@@ -1,6 +1,7 @@
 ---
 title: How To Invite Me To Your Video
 date: 2023-09-14
+desc: I genuinely want to connect with up and coming Geometry Dash YouTubers of any size! As such, I allow collab invitations from anyone, no matter their size. If you're a Geometry Dash YouTuber who wants to invite me to your video, continue reading!
 ---
 
 I genuinely want to connect with up and coming Geometry Dash YouTubers of any size! As such, I allow collab invitations from anyone, no matter their size. If you're a Geometry Dash YouTuber who wants to invite me to your video, continue reading!

@@ -1,6 +1,7 @@
 ---
 title: No More Creator Collabs Until 2.2
 date: 2023-09-03
+desc: Due to working on my Geometry Dash 2.2 content plans, I will not be accepting any creator collabs during the month of September.
 ---
 
 For more information on how to invite me to collabs, see my [collab invitation guide](/collabs/).

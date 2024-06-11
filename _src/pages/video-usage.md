@@ -1,5 +1,6 @@
 ---
 title: Video Usage Policy
+desc: Moldy's Video Usage Policy
 ---
 
 I love it when creators use my content to create something of their own! I just ask that you stay original and use my content in good faith. Specifically, this policy outlines how you are allowed to use my content.

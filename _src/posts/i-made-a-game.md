@@ -1,6 +1,7 @@
 ---
 title: I Made A Game (Kind Of)
 date: 2024-05-20
+desc: Recently, me and some friends made a game for a game jam. It was a group effort, so most of the game was created by other people, including most of the code, art, and sounds.
 ---
 
 I made a game (kind of).

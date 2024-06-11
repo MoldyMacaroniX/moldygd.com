@@ -1,6 +1,7 @@
 ---
 title: Program For Upcoming YouTubers To Connect With Me. Maybe?
 date: 2023-10-01
+desc: As I keep saying, I genuinely want to connect with up and coming creators. As such, I've considered making a program for up and coming Geometry Dash YouTubers to connect with me.
 ---
 
 As I keep saying, [I genuinely want to connect with up and coming creators](/collabs/). As such, I've considered making a program for up and coming Geometry Dash YouTubers to connect with me.

@@ -1,6 +1,7 @@
 ---
 title: The Best Geometry Dash Challenge Video?
 date: 2023-09-01
+desc: I don't think so, but maybe it's a contender.
 ---
 
 I don't think so, but maybe it's a contender.

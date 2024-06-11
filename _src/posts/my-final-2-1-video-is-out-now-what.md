@@ -1,9 +1,10 @@
 ---
 title: My Final 2.1 Video Is Out. Now What?
 date: 2023-10-17
+desc: Today, I will be releasing my final 2.1 video (asterisk). It does feel sort of surreal, but at the same time, I don't think my content will change so much in 2.2. My style of content can quite easily be adapted to 2.2, and I've already been making 2.2 videos for some time anyway. It'll take a bit of time to learn the new level editor, but otherwise, not much will change for me.
 ---
 
-Today, I will be releasing my final 2.1 video.<sup>1</sup> It does feel sort of surreal, but at the same time, I don't think my content will change so much in 2.2. My style of content can quite easily be adapted to 2.2, and I've [already been making 2.2 videos for some time anyway](https://youtube.com/playlist?list=PLvG1lI0KWDE2nGdNUBuvSoYQ4OV2r1Svb&si=QZY7-_kSI9WdWnEj). It'll take a bit of time to learn the new editor level editor, but otherwise, not much will change for me.
+Today, I will be releasing my final 2.1 video.<sup>1</sup> It does feel sort of surreal, but at the same time, I don't think my content will change so much in 2.2. My style of content can quite easily be adapted to 2.2, and I've [already been making 2.2 videos for some time anyway](https://youtube.com/playlist?list=PLvG1lI0KWDE2nGdNUBuvSoYQ4OV2r1Svb&si=QZY7-_kSI9WdWnEj). It'll take a bit of time to learn the new level editor, but otherwise, not much will change for me.
 
 Currently, I am in this awkward state where I cannot work on any more videos, meaning I am essentially softlocked from making videos until 2.2 comes out. So, what should I do in the meantime?
 

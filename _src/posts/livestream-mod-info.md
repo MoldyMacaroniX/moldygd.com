@@ -1,6 +1,7 @@
 ---
 title: Livestream Mod Roadmap
 date: 2023-07-10
+desc: I get asked a lot how to become a livestream mod for my channel. It is a bit of a complicated process, but I'll do my best to explain it here.
 ---
 
 I get asked a lot how to become a livestream mod for my channel. It is a bit of a complicated process, but I'll do my best to explain it here.
