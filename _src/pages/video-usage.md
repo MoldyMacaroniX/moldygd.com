@@ -36,10 +36,12 @@ I love it when creators use my content to create something of their own! I just 
 - Feel free to remix my shorts!
 - Do not reupload my shorts.
 - Do not monetize unedited clips from my shorts unless you add your own creative value.
-- I'm fine with you uploading compilations of clips from my shorts, so long as you don't monetizse them and only include clips (not the entirety of my shorts).
+- I'm fine with you uploading compilations of clips from my shorts, so long as you don't monetize them and only include clips (not the entirety of my shorts).
 
 ---
 
+
+
 **I will do my best to contact uploaders before striking any content.** That being said, for clear or urgent violations of these rules, I may strike without warning.
 
-If you would like to make excepts to this policy, such as to use my content in an ad campaign, please [contact me](/contact/).
+If you would like to make exceptions to this policy, such as to use my content in an ad campaign, please [contact me](/contact/).

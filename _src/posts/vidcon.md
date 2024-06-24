@@ -6,7 +6,7 @@ desc: VIDCON TIME
 
 I am going to **VidCon Anaheim** this year!
 
-VidCon Anaheim is a yearly convention for digital media creators and fans to convene in real life. Considering I'm a YouTuber, I decided to go. And I'm not going alone!
+VidCon Anaheim is a yearly convention for digital media creators and fans to convene in real life over June 26-29. Considering I'm a YouTuber, I decided to go. And I'm not going alone!
 
 I will be going with fellow Geometry Dash YouTubers Tride, Sdslayer, and Vortrox. I've also heard that there are other Geometry Dash YouTubers who plan to show up!
 
