@@ -49,11 +49,11 @@ That being said, I can do everything else! Even backend content management syste
 # Refunds
 
 - With my system, **you don't pay until after I make you the site!** And if you don't like the site, you don't even have to pay.
-- Email me to request a refund. They are available by my discretion or when applicable by law.
+- Contact me to request a refund. They are available by my discretion or when applicable by law.
 
 # Talk to me
 
-Email me at [moldy@moreyellow.com](mailto:moldy@moreyellow.com) to discuss the commission! Alternatively, if you have access<sup>2</sup> to my direct messages already, you can talk to me there.
+Contact me via [any of my social media](/social-media/) (like Discord or Twitter) to discuss the commission! Alternatively, if you have access<sup>2</sup> to my direct messages already, you can talk to me there.
 
 ---
 
