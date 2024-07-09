@@ -38,7 +38,7 @@ That being said, I can do everything else! Even backend content management syste
 # Price
 
 - It only costs **$30 USD** to commission a website from me and learn how to host it.
-- Thanks to my approach to coding websites, **hosting will be free**, meaning you will only have to pay for a domain (if you want one). Domains are very cheap, only being about **$10 USD per year**. I will teach you all this. Thanks to my approach to websites, its easy and cheap.
+- Thanks to my approach to coding websites, **hosting will be free**, meaning you will only have to pay for a domain (if you want one). Domains are very cheap, only being about **$15 USD per year**. I will teach you all this. Thanks to my approach to websites, its easy and cheap.
 - I have various methods of payment. Paypal works best but feel free to get in touch with me if you need something else.
 - **You don't pay if you don't like the website.** Simple as that. No questions asked.
 
