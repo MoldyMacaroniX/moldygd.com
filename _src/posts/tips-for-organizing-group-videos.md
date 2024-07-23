@@ -14,7 +14,9 @@ I can't blame the host. I have been doing group videos for so long that I have i
 
 Just pick a good time you're available and invite people with that. It's just quicker and simpler than inviting a bunch of people arbitrarily and trying to get them to vote on a day and time.
 
-Don't make me have to fill out a when2meet form or vote on which times work for me. Just give me a time, and if it's good, I'll come.
+Don't make me have to fill out a When2meet<sup>1</sup> form or vote on which times work for me. Just give me a time, and if it's good, I'll come.
+
+**Use [this timestamp converter](https://sesh.fyi/timestamp/) to convert times into markdown text that displays times in the user's local timezone.** This will eliminate all confusion regarding timezones and daylight savings.
 
 # Don't invite people to a Discord server.
 
@@ -64,3 +66,7 @@ What is important is to do as much planning as you can and try not to change thi
 # You don't need popular people to do a group video.
 
 Before I was popular, I just invited my friends. You can still make a viral video without famous YouTubers in your video.
+
+---
+
+_<sup>1</sup>[When2meet](https://www.when2meet.com/?About) is an awesome free tool, and I commend those behind it for releasing this for free. But it should not be used for organizing group videos, as it is very inefficient compared to just choosing a time and using that, as noted earlier._
