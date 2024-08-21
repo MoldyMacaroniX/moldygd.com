@@ -8,7 +8,7 @@ Here is a list of rules and settings for my videos. This is mostly just for me t
 
 **If you are a video participant:** please try your best to follow everything here. That being said, it is probable that some of you will accidentally screw up, such as by instinctly pressing the "R" key or forgetting to remove your Mega Hack UI text. If that happens, just go on with the video. If there is a quick fix, feel free to do it, but please don't interupt the game/whatever we're doing unless it is absolutely vital.
 
-The **most important** sections are about Globed settings and Video Settings. **Please try your best to not screw these up.**
+The **most important** sections are about Globed settings and Recording Settings. **Please try your best to not screw these up.**
 
 # Video Rules
 
