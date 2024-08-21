@@ -23,6 +23,7 @@ Unless otherwise stated, the following are not allowed in my videos:
 
 - Only use a face cam if:
     - You can record it **separately** from the raw footage (such as by sending me two files: the gameplay footage and a seperate file for your face cam)
+- If you are using a face cam, please clap at the start so it is easier to sync audio!
 
 # Vanilla and Mega Hack Settings
 
@@ -33,7 +34,7 @@ Unless otherwise stated, the following are not allowed in my videos:
 # Globed Settings
 
 - Test proximity chat before hand, if possible. Don't forget to make sure you have the correct mic selected!
-- **Voice tab"** Make sure voice chat and voice proximity are enabled, don't use classic proximity, don't use "only friends."
+- **Voice tab:** Make sure voice chat and voice proximity are enabled, don't use classic proximity, don't use "only friends."
 - **Level UI tab:** Disable everything
 - **Player tab:** Disable everything except death effects and opacity
 - If we're doing a team video where you will be communicating with your team through a Discord call, mute your teammates in Globed to avoid echo (this will be stated by me)
@@ -54,6 +55,11 @@ Unless otherwise stated, the following are not allowed in my videos:
     - The Discord call (unless we're solely using in-game proximity chat)
     - Geometry Dash (only if we're using in-game proximity chat)
 - If you **CAN NOT** do multiple audio tracks, then just record your mic audio (not the Discord call, game audio, or anything else)
+
+## Test Recording
+
+- Before every video, I will ask everyone to do a test recording. This is so that we can make sure the quality is good, the correct mic/speakers were selected, and all audio tracks are working.
+- Make sure to chuck this test recording into a video editor to make sure all audio tracks are working!
 
 ## Multiple Recordings
 
