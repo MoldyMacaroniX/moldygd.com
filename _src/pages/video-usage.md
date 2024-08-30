@@ -33,7 +33,6 @@ I love it when creators use my content to create something of their own! I just 
 
 # Shorts
 
-- Feel free to remix my shorts!
 - Do not reupload my shorts.
 - Do not monetize unedited clips from my shorts unless you add your own creative value.
 - I'm fine with you uploading compilations of clips from my shorts, so long as you don't monetize them and only include clips (not the entirety of my shorts).

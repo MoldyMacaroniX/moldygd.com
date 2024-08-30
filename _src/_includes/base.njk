@@ -62,7 +62,7 @@
     <!-- Banner -->
     <div class="banner">
         <div class="container">
-            Want to get in touch? <a href="/contact/">See this!</a>
+            Want to get in touch? <a href="/contact/">See my contact details here!</a>
         </div>
     </div>
 
@@ -176,6 +176,7 @@
         window.onload = (event) => {
             // preload animation stop
             document.body.classList.remove('preload');
+            openExtLinks();
         };
     </script>
 
@@ -224,6 +225,17 @@
             panel.style.maxHeight = panel.scrollHeight + "px";
             } 
         });
+        }
+    </script>
+
+    <!-- Open external links in a new tab -->
+    <script>
+        function openExtLinks() {
+            for (var links = document.links, i = 0, a; a = links[i]; i++) {
+                if (a.host !== location.host) {
+                        a.target = '_blank';
+                }
+            }
         }
     </script>
 

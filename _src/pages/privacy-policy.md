@@ -9,17 +9,11 @@ At MoldyGD.com, we take privacy very seriously.
 
 By using this website, you consent to this Privacy Policy and its terms.
 
-# Information we collect
-
-We may collect anonymous usage data about visitors on our site. This data is anonymous and cannot be traced back to you personally. We use this data to analyze our site performance, such as to see how many users are on our site and where our users are located in the world.
-
-We might also be able to access the sender's email address, name, and content of any emails you send us.
-
 # Third party privacy policies
 
 This Privacy Policy does not apply to other third party services that we use. We recommend you familiarize yourself with their Privacy Policies.
 
-
+We embed YouTube on this site, so we recommend consulting [Google's Privacy Policy](https://policies.google.com/privacy).
 
 
 <!--
