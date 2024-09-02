@@ -30,6 +30,7 @@ Unless otherwise stated, the following are not allowed in my videos:
 - Disable all UI elements (no mega hack UI or platformer mode timer)
     - In the vanilla game, this includes the platformer mode timer, FPS, and anything else of the like
     - In Mega Hack, this includes any UI stats you typically use while playing
+- Unless otherwise noted, disable in-game music and SFX.
 
 # Globed Settings
 
