@@ -16,6 +16,7 @@ Unless otherwise stated, the following are not allowed in my videos:
 
 - Everything obvious like Noclip, Speedhack, etc.
 - Pausing to restart the level or pressing the "R" key to do that is not allowed
+- Pausing in general is not allowed (this is to keep the level synced for everybody)
 - Practice mode is not allowed
 - Show hitboxes on death (please turn this off)
 
