@@ -1,6 +1,6 @@
 ---
 title: This Website Is Moving!
-date: 2024-16-09
+date: 2024-09-16
 desc: Yes, it really is.
 ---
 
