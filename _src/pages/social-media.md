@@ -28,6 +28,7 @@ These are other platforms I am active on.
 
 These are less active accounts that I still own.
 
+* **GitHub:** [MoldyMacaroniX](https://github.com/MoldyMacaroniX)
 * **Itch.io:** [moldygd](https://moldygd.itch.io/)
 * **Bluesky:** [@moldygd.com](https://bsky.app/profile/moldygd.com)
 * **Instagram:** [@moldygmd](https://www.instagram.com/moldygmd/)
