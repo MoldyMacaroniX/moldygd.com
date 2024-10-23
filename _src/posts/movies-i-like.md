@@ -2,7 +2,7 @@
 title: My Favorite Films
 date: 2023-08-16
 update: 2024-10-22
-desc: Here is my attempt to rank my favorite films I've seen. For franchises, I will only include one film per franchise, with the film I chose to include being my favorite from the franchise.
+desc: Here is my attempt to rank my favorite films I've seen. For franchises, I will only include one film per franchise, with the film I chose to include being my favorite from the franchise. But in general, if I include a film from a franchise, I recommend the whole series.
 ---
 
 Here is my attempt to rank my favorite films I've seen. For franchises, I will only include one film per franchise, with the film I chose to include being my favorite from the franchise. But in general, if I include a film from a franchise, I recommend the whole series.
