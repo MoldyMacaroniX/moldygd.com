@@ -1,7 +1,7 @@
 ---
 title: My Favorite Films
 date: 2023-08-16
-update: 2024-08-27
+update: 2024-10-22
 desc: Here is my attempt to rank my favorite films I've seen. For franchises, I will only include one film per franchise, with the film I chose to include being my favorite from the franchise.
 ---
 
@@ -12,7 +12,7 @@ Here is my attempt to rank my favorite films I've seen. For franchises, I will o
 3. **Shutter Island (2010) -** Amazing storytelling and excellent at making you question yourself (you really feel like the protagonist in this one)
 4. **The Prestige (2006) -** Amazing plot and plot twist
 5. **Dune: Part 2 (2024) -** Immersive world, excellent character building, and unique plot
-6. **Pirates of the Caribbean: The Curse of the Black Pearl (2003) -** Masterpiece in motivation (the plot never feels "forced"). The second and third are also really good. Hard to pick just one as my favorite.
+6. **Pirates of the Caribbean: Dead Man's Chest (2006) -** Masterpiece in plot (the plot never feels "forced") and motivation (specifically regarding the characters).
 7. **Sherlock Holmes (2009) -** Masterpiece in character. I historically haven't been a big fan of the second one but since it has started to grow on me. I still think I prefer the first though.
 8. **Tenet (2020) -** Masterpiece in plot
 9. **Oppenheimer (2023) -** Masterpeice in immersion (Although this is very likely due to watching it in IMAX. I don't think it would hit as hard at a home theatre.)
