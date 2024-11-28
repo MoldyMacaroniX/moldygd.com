@@ -8,7 +8,7 @@ For more information on how to invite me to collabs, see my [collab invitation g
 
 Due to working on my Geometry Dash 2.2 content plans, I will not be accepting any creator collabs during the month of September.
 
-I will still be open to sponsorships, however. If you would like to promote something with me, send me an email at [moldy@moreyellow.com](mailto:moldy@moreyellow.com).
+I will still be open to sponsorships, however. If you would like to promote something with me, send me an email at [contact@moldygd.com](mailto:contact@moldygd.com).
 
 With [Geometry Dash update 2.2 being released in October](https://www.dashword.net/posts/final-geometry-dash-2-2-release-date-confirmed-by-robtop/), I've had to work on a new content plan for the fourth quarter of the year. Fortunately, I'm making good process, with many amazing Geometry Dash 2.2 videos planned for the update.
 

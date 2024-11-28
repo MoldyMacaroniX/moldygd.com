@@ -20,7 +20,7 @@ We embed YouTube on this site, so we recommend consulting [Google's Privacy Poli
 
 At MoldyGD.com, accessible from [https://www.moldygd.com](/), one of our top core values is privacy. This Privacy Policy outlines what information we collect and how we use it.
 
-If you have any questions about this privacy policy, do not be afraid to contact us at [moldy@moreyellow.com](mailto:moldy@moreyellow.com).
+If you have any questions about this privacy policy, do not be afraid to contact us at [contact@moldygd.com](mailto:contact@moldygd.com).
 
 # Consent
 
@@ -61,7 +61,7 @@ Request that a business delete any personal data about the consumer that a busin
 
 Request that a business that sells a consumer's personal data, not sell the consumer's personal data.
 
-If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us at [moldy@moreyellow.com](mailto:moldy@moreyellow.com).
+If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us at [contact@moldygd.com](mailto:contact@moldygd.com).
 
 # GDPR Data Protection Rights
 
@@ -79,13 +79,13 @@ The right to object to processing – You have the right to object to our proces
 
 The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
 
-If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us at [moldy@moreyellow.com](mailto:moldy@moreyellow.com).
+If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us at [contact@moldygd.com](mailto:contact@moldygd.com).
 
 # Children's Information
 
 Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
 
-MoldyGD.com does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information to us, we strongly encourage you to contact us immediately at [moldy@moreyellow.com](mailto:moldy@moreyellow.com) and we will do our best efforts to promptly remove such information from our records.
+MoldyGD.com does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information to us, we strongly encourage you to contact us immediately at [contact@moldygd.com](mailto:contact@moldygd.com) and we will do our best efforts to promptly remove such information from our records.
 
 # Attribution
 
