@@ -14,7 +14,7 @@ body {
 
     /* Unchanging Colors */
     --primary: rgb(255, 0, 255);
-    --primary-dark: rgb(37,0,37); /* NEW(?): rgb(40, 10, 55) */
+    --primary-dark: rgb(34, 10, 66); /* NEW(?): rgb(40, 10, 55) */
 
     /* Typography */
     --font: 'Poppins', sans-serif;
