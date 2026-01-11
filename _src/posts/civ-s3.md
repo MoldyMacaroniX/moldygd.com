@@ -10,7 +10,7 @@ There will be two teams: -X and +X (yes, that's the team names). They will each 
 
 A border on the x-axis will separate both teams, but on day 5, the border will drop and the battle will begin!
 
-Each team will act as a civilization and will face the difficult task of coordination. Some players may be good at speedrunning, others at building. Some may be good at redstone, others at PVP. It is up to your team to effectively manage everyone's skillsets to protect your Core for as long as possible!
+Each team will act as a civilization and will face the difficult task of coordination. Some players may be good at speedrunning, others at building. Some may be good at trapping, others at PVP. It is up to your team to effectively manage everyone's skillsets to protect your Core for as long as possible!
 
 If you apply before the deadline, you will be able to decide which team you're on, so you and your friends can join the same team. But we will likely keep applications open after the deadline, but players who are accepted will instead be assigned to whichever team has less active players / less skillsets in order to keep things fair. More info in **#read-before-applying**.
 
