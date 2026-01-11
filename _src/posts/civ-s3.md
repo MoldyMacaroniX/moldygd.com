@@ -4,6 +4,8 @@ date: 2026-01-11
 desc: If you're looking for a more traditional Minecraft experience, then this season is for you!
 ---
 
+**Want to join this event?** [Apply here!](https://discord.gg/dseGv67ruU)
+
 If you're looking for a more traditional Minecraft experience, then this season is for you!
 
 There will be two teams: -X and +X (yes, that's the team names). They will each have four days to build a base to defend their "Core," a mob/item (still TBD exactly what this will be) that the opposing team will be tasked with destroying.
